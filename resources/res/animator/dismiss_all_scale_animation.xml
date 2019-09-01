@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <set android:ordering="together">
+            <objectAnimator android:interpolator="@android:anim/accelerate_decelerate_interpolator" android:duration="150">
+                <propertyValuesHolder android:valueTo="0.9" android:valueType="floatType" android:propertyName="scaleX"/>
+                <propertyValuesHolder android:valueTo="0.9" android:valueType="floatType" android:propertyName="scaleY"/>
+            </objectAnimator>
+        </set>
+    </item>
+    <item android:state_pressed="false">
+        <set android:ordering="together">
+            <objectAnimator android:interpolator="@android:anim/decelerate_interpolator" android:duration="150">
+                <propertyValuesHolder android:valueTo="1" android:valueType="floatType" android:propertyName="scaleX"/>
+                <propertyValuesHolder android:valueTo="1" android:valueType="floatType" android:propertyName="scaleY"/>
+            </objectAnimator>
+        </set>
+    </item>
+</selector>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/content_parent" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Toolbar android:theme="?android:attr/actionBarTheme" android:id="@+id/action_bar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:navigationContentDescription="@android:string/timepicker_transition_mid_radius_multiplier" style="?android:attr/actionBarStyle"/>
+    <FrameLayout android:id="@+id/content_header_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="?android:attr/actionBarStyle"/>
+    <FrameLayout android:id="@+id/content_frame" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

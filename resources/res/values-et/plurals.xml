@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="one">SIM-kaardi vale PIN-kood. Teil on jäänud veel %d katse enne, kui peate seadme avamiseks operaatoriga ühendust võtma.</item>
+        <item quantity="other">SIM-kaardi vale PIN-kood. Teil on jäänud veel %d katset.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="one">SIM-kaardi vale PUK-kood. Teil on jäänud veel %d katse enne, kui SIM-kaart jäädavalt lukustatakse.</item>
+        <item quantity="other">SIM-kaardi vale PUK-kood. Teil on jäänud veel %d katset enne, kui SIM-kaart jäädavalt lukustatakse.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="one">Seadet pole avatud %d tund. Kinnitage parool.</item>
+        <item quantity="other">Seadet pole avatud %d tundi. Kinnitage parool.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="one">Seadet pole avatud %d tund. Kinnitage muster.</item>
+        <item quantity="other">Seadet pole avatud %d tundi. Kinnitage muster.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="one">Seadet pole avatud %d tund. Kinnitage PIN-kood.</item>
+        <item quantity="other">Seadet pole avatud %d tundi. Kinnitage PIN-kood.</item>
+    </plurals>
+    <plurals name="notification_channels_list_desc_2_and_others">
+        <item quantity="one">%1$s, %2$s ja veel %3$d kanal</item>
+        <item quantity="other">%1$s, %2$s ja veel %3$d kanalit</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="one">Sees on veel %s märguanne.</item>
+        <item quantity="other">Sees on veel %s märguannet.</item>
+    </plurals>
+    <plurals name="notification_num_channels_desc">
+        <item quantity="one">1 %d-st märguannete kategooriast sellelt rakenduselt</item>
+        <item quantity="other">1 %d-st märguannete kategooriast sellelt rakenduselt</item>
+    </plurals>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="one">1 ekraan jaotises Ülevaade</item>
+        <item quantity="other">%d ekraani jaotises Ülevaade</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="one">%1$d seade on ühendatud</item>
+        <item quantity="other">%1$d seadet on ühendatud</item>
+    </plurals>
+</resources>

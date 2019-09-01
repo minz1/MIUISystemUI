@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.qs.tiles.DataUsageDetailView xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingTop="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16dp" android:paddingEnd="16dp">
+    <TextView android:textAppearance="@style/TextAppearance.QS.DataUsage" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <TextView android:textAppearance="@style/TextAppearance.QS.DataUsage.Usage" android:id="@+id/usage_text" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <com.android.systemui.qs.DataUsageGraph android:id="@+id/usage_graph" android:layout_width="match_parent" android:layout_height="8dp" android:layout_marginTop="8dp" android:layout_marginBottom="@dimen/qs_panel_padding"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/TextAppearance.QS.DataUsage" android:id="@+id/usage_carrier_text" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+        <TextView android:textAppearance="@style/TextAppearance.QS.DataUsage" android:id="@+id/usage_info_top_text" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp">
+        <TextView android:textAppearance="@style/TextAppearance.QS.DataUsage.Secondary" android:id="@+id/usage_period_text" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+        <TextView android:textAppearance="@style/TextAppearance.QS.DataUsage.Secondary" android:id="@+id/usage_info_bottom_text" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    </LinearLayout>
+    <TextView android:textAppearance="@style/TextAppearance.QS.DataUsage.Secondary" android:id="@+id/roaming_text" android:paddingTop="16dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/accessibility_data_connection_roaming"/>
+</com.android.systemui.qs.tiles.DataUsageDetailView>

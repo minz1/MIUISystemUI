@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.android.keyguard.MiuiKeyguardBatteryInfoView android:textSize="@dimen/battery_charging_old_progress_view_text_size" android:textColor="@color/battery_charging_progress_view_text_color" android:gravity="center" android:id="@+id/battery_charging_view" android:background="@drawable/keyguard_battery_charging_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/battery_charging_progress_view_bottom_margin"/>
+    <TextView android:textSize="@dimen/battery_charging_progress_view_msg_size" android:textColor="@color/battery_charging_progress_view_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lockscreen_charging_msg"/>
+</LinearLayout>

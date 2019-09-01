@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="clean_toast_bottom_margin">47dp</dimen>
+    <dimen name="task_access_locked_app_padding_vertical">37dp</dimen>
+</resources>

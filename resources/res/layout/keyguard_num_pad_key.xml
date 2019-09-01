@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt">
+    <TextView android:id="@+id/digit_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.TextView.NumPadKey"/>
+    <TextView android:id="@+id/klondike_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.TextView.NumPadKey.Klondike"/>
+</merge>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="notch_expanded_header_height">@dimen/expanded_header_with_carrier_height</dimen>
+</resources>

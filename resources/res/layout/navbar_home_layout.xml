@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.policy.OpaLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:id="@+id/home_layout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/navigation_key_width" android:layout_height="match_parent" android:scaleType="fitCenter" android:layout_weight="0">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/red" android:src="@drawable/ic_sysbar_opa_red" android:importantForAccessibility="no" style="@style/DotStyle"/>
+        <ImageView android:id="@+id/blue" android:src="@drawable/ic_sysbar_opa_blue" android:importantForAccessibility="no" style="@style/DotStyle"/>
+        <ImageView android:id="@+id/green" android:src="@drawable/ic_sysbar_opa_green" android:importantForAccessibility="no" style="@style/DotStyle"/>
+        <ImageView android:id="@+id/yellow" android:src="@drawable/ic_sysbar_opa_yellow" android:importantForAccessibility="no" style="@style/DotStyle"/>
+    </RelativeLayout>
+    <com.android.systemui.statusbar.policy.HomeButtonView android:layout_gravity="center" android:id="@+id/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no"/>
+    <com.android.systemui.statusbar.policy.KeyButtonView android:id="@+id/home" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="center" android:layout_weight="0" android:contentDescription="@string/accessibility_home" app:keyCode="3" app:keyRepeat="false"/>
+    <com.android.systemui.statusbar.policy.HomeButtonView android:layout_gravity="center" android:id="@+id/halo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no"/>
+</com.android.systemui.statusbar.policy.OpaLayout>

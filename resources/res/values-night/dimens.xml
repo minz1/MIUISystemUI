@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="notification_divider_height_increased">6dp</dimen>
+    <dimen name="notification_heads_up_z_translation">20dp</dimen>
+    <dimen name="qs_status_bar_header_alpha">0.8</dimen>
+    <dimen name="recent_background_scrim_alpha">0.75</dimen>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.android.keyguard.widget.GradientLinearLayout android:orientation="vertical" android:id="@+id/gradient_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textStyle="bold" android:layout_gravity="center" android:id="@+id/city" android:paddingTop="@dimen/aod_clock_padding_top_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/city_margin_bottom" android:includeFontPadding="false" style="@style/Aod_date_horizontal"/>
+        <TextView android:layout_gravity="center" android:id="@+id/clock_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="true" android:fontFamily="miui-thin" android:letterSpacing="0.05" style="@style/Aod_widget_horizontal"/>
+        <TextView android:textStyle="bold" android:layout_gravity="center" android:id="@+id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/date_margin_top" android:layout_marginBottom="@dimen/date_margin_bottom" android:includeFontPadding="false" style="@style/Aod_date_horizontal"/>
+        <TextView android:textSize="@dimen/content_text_size_another" android:textStyle="bold" android:textColor="@color/clock_togother_another_text_color" android:layout_gravity="center" android:id="@+id/another_city" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/another_city_margin_top" android:includeFontPadding="false" style="@style/Aod_date_horizontal"/>
+        <include layout="@layout/aod_battery"/>
+    </com.android.keyguard.widget.GradientLinearLayout>
+</FrameLayout>

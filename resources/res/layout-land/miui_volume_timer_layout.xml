@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/miui_volume_timer_layout" android:background="@drawable/miui_volume_timer_layout_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/miui_volume_timer_time_text_size" android:textColor="@color/miui_volume_tint_dark" android:gravity="center_horizontal" android:id="@+id/miui_volume_timer_ticking" android:layout_width="match_parent" android:layout_height="@dimen/miui_volume_timer_ticking_height"/>
+    <com.android.systemui.miui.volume.MiuiVerticalVolumeTimerSeekBar android:id="@+id/miui_volume_timer" android:layout_marginLeft="@dimen/miui_volume_timer_margin" android:layout_marginRight="@dimen/miui_volume_timer_margin" style="@style/Widget.SeekBar.MiuiVolume.Timer.Vertical"/>
+</LinearLayout>

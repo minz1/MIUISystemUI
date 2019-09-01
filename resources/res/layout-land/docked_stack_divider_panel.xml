@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.stackdivider.MultiWindowPanelView xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:background="@android:color/transparent" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+    <View android:id="@+id/docked_divider_background" android:background="@color/docked_divider_background" style="@style/DockedDividerBackground"/>
+    <include android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" layout="@layout/multi_window_launcher"/>
+</com.android.systemui.stackdivider.MultiWindowPanelView>

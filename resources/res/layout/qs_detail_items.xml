@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.qs.QSDetailItems xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.android.systemui.qs.AutoSizingList android:orientation="vertical" android:id="@android:id/list" android:layout_width="match_parent" android:layout_height="match_parent" app:itemHeight="@dimen/qs_detail_item_height" style="@style/AutoSizingList"/>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@android:id/empty" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@android:id/icon" android:layout_width="56dp" android:layout_height="56dp" android:tint="@color/qs_detail_empty_icon_color"/>
+        <TextView android:textAppearance="@style/TextAppearance.QS.DetailEmpty" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp"/>
+    </LinearLayout>
+</com.android.systemui.qs.QSDetailItems>

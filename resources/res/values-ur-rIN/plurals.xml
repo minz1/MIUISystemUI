@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_recent_task_enter">
+        <item quantity="one">حال میں کھولے گئے, دستیاب ایپ: %d۔</item>
+        <item quantity="other">حال میں کھولے گئے, دستیاب ایپس: %d۔</item>
+    </plurals>
+    <plurals name="accessibility_recent_task_first_enter_tips">
+        <item quantity="one">حال میں کھولے گئے, دستیاب ایپ: %d۔ ہٹانے کے لیے اوپر سوائپ کریں, لاک کرنے کے لیے نیچے سوائپ کریں۔</item>
+        <item quantity="other">حال میں کھولے گئے, دستیاب ایپس: %d۔ ہٹانے کے لیے اوپر سوائپ کریں, لاک کرنے کے لیے نیچے سوائپ کریں۔</item>
+    </plurals>
+    <plurals name="aod_dual_togother_city">
+        <item quantity="one">&quot; &quot;%s گھنٹہ %s</item>
+        <item quantity="other">&quot; &quot;%s گھنٹہ %s</item>
+    </plurals>
+    <plurals name="block_record_notification_more_text">
+        <item quantity="one">%1$s اور %2$d ایپ سے اطلاعات کو چھپانا۔</item>
+        <item quantity="other">%1$s اور %2$d ایپس سے اطلاعات کو چھپانا۔</item>
+    </plurals>
+    <plurals name="disable_notification_confirm_title">
+        <item quantity="one">اس ایپ کی اطلاعات چھپائيں؟</item>
+        <item quantity="other">%d ایپس کی اطلاعات چھپائیں؟</item>
+    </plurals>
+    <plurals name="fold_tips_title">
+        <item quantity="one">%d غیر اہم اطلاع</item>
+        <item quantity="other">%d غیر اہم اطلاعات</item>
+    </plurals>
+    <plurals name="incorrect_pincode_remaining_attempts">
+        <item quantity="one">غلط PIN کوڈ, %d کوشش باقی</item>
+        <item quantity="other">غلط PIN کوڈ, %d کوششیں باقی</item>
+    </plurals>
+    <plurals name="incorrect_pukcode_remaining_attempts">
+        <item quantity="one">غلط PUK کوڈ, %d کوشش باقی</item>
+        <item quantity="other">غلط PUK کوڈ, %d کوشش باقی</item>
+    </plurals>
+    <plurals name="input_password_after_timeout_msg">
+        <item quantity="one">ہمیشہ یاد رکھنے کے لیے اپنا پاسورڈ کم سے کم ہر %d گھنٹہ میں ایک بار درج کریں</item>
+        <item quantity="other">ہمیشہ یاد رکھنے کے لیے اپنا پاسورڈ کم سے کم ہر %d گھنٹے میں ایک بار درج کریں</item>
+    </plurals>
+    <plurals name="input_pattern_after_timeout_msg">
+        <item quantity="one">ہمیشہ یاد رکھنے کے لیے اپنا پاسورڈ کم سے کم ہر %d گھنٹہ میں ایک بار درج کریں</item>
+        <item quantity="other">ہمیشہ یاد رکھنے کے لیے اپنا پاسورڈ کم سے کم ہر %d گھنٹے میں ایک بار درج کریں</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_could_use_hour_time_text">
+        <item quantity="one">تقریباً %d گھنٹہ باقی</item>
+        <item quantity="other">تقریباً %d گھنٹے باقی</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_could_use_min_time_text">
+        <item quantity="one">تقریباً %d منٹ باقی</item>
+        <item quantity="other">تقریباً %d منٹ باقی</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_could_use_time_text">
+        <item quantity="one">تقریباً %d h %d منٹ باقی</item>
+        <item quantity="other">تقریباً %d h %d منٹ باقی</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_hour_time_format">
+        <item quantity="one">%d گھنٹہ</item>
+        <item quantity="other">%d گھنٹے</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_min_time_format">
+        <item quantity="one">%d منٹ</item>
+        <item quantity="other">%d منٹ</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_time_format">
+        <item quantity="one">%d h %d منٹ</item>
+        <item quantity="other">%d h %d منٹ</item>
+    </plurals>
+    <plurals name="keyguard_extreme_power_info_could_use_hour_time_text">
+        <item quantity="one">%d گھنٹہ باقی</item>
+        <item quantity="other">%d گھنٹے باقی</item>
+    </plurals>
+    <plurals name="keyguard_extreme_power_info_could_use_min_time_text">
+        <item quantity="one">%d منٹ باقی</item>
+        <item quantity="other">%d منٹ باقی</item>
+    </plurals>
+    <plurals name="keyguard_extreme_power_info_could_use_time_text">
+        <item quantity="one">%d h %d منٹ باقی</item>
+        <item quantity="other">%d h %d منٹ باقی</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="one">سم پن درج کریں, اپنا ڈیوائس ان لاک کرنے کے لیے اپنے کیریئر سے رابطہ کرنے سے پہلے آپ کے پاس %d کوشش باقی ہے۔</item>
+        <item quantity="other">سم پن درج کریں, آپ کے پاس %d کوششیں باقی ہیں۔</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="one">سم اب غیر فعال ہو گیا ہے۔ جاری رکھنے کے لیے PUK کوڈ درج کریں۔ سم مستقل طور پر ناقابل استعمال ہو جانے سے پہلے آپ کے پاس %d کوشش باقی ہے۔ تفصیلات کے لیے کیریئر سے رابطہ کریں۔</item>
+        <item quantity="other">سم اب غیر فعال ہو گیا ہے۔ جاری رکھنے کے لیے PUK کوڈ درج کریں۔ سم مستقل طور پر ناقابل استعمال ہو جانے سے پہلے آپ کے پاس %d کوششیں باقی ہیں۔ تفصیلات کے لیے کیریئر سے رابطہ کریں۔</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="one">غلط سم پن کوڈ, اپنا ڈیوائس ان لاک کرنے کے لیے اپنے کیریئر سے رابطہ کرنے سے پہلے آپ کے پاس %d کوشش باقی ہے۔</item>
+        <item quantity="other">غلط سم پن کوڈ, آپ کے پاس %d کوششیں باقی ہیں۔</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="one">غلط سم PUK کوڈ, سم مستقل طور پر ناقابل استعمال ہو جانے سے پہلے آپ کے پاس %d کوشش باقی ہے۔</item>
+        <item quantity="other">غلط سم PUK کوڈ, سم مستقل طور پر ناقابل استعمال ہو جانے سے پہلے آپ کے پاس %d کوششیں باقی ہیں۔</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="one">ڈیوائس %d گھنٹہ سے ان لاک نہیں کیا گیا ہے۔ پاسورڈ کی تصدیق کریں۔</item>
+        <item quantity="other">ڈیوائس %d گھنٹے سے ان لاک نہیں کیا گیا ہے۔ پاسورڈ کی تصدیق کریں۔</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="one">ڈیوائس %d گھنٹہ سے ان لاک نہیں کیا گیا ہے۔ پیٹرن کی تصدیق کریں۔</item>
+        <item quantity="other">ڈیوائس %d گھنٹے سے ان لاک نہیں کیا گیا ہے۔ پیٹرن کی تصدیق کریں۔</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="one">ڈیوائس %d گھنٹہ سے ان لاک نہیں کیا گیا ہے۔ پن کی تصدیق کریں۔</item>
+        <item quantity="other">ڈیوائس %d گھنٹے سے ان لاک نہیں کیا گیا ہے۔ پن کی تصدیق کریں۔</item>
+    </plurals>
+    <plurals name="new_notifications_msg">
+        <item quantity="one">%d نئی اطلاع</item>
+        <item quantity="other">%d نئی اطلاعات</item>
+    </plurals>
+    <plurals name="notification_channels_list_desc_2_and_others">
+        <item quantity="one">%1$s, %2$s, اور %3$d دیگر</item>
+        <item quantity="other">%1$s, %2$s, اور %3$d دیگر</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="one">اندر %s مزید اطلاع</item>
+        <item quantity="other">اندر %s مزید اطلاعات</item>
+    </plurals>
+    <plurals name="notification_num_channels">
+        <item quantity="one">%d اطلاع کٹیگری</item>
+        <item quantity="other">%d اطلاع کٹیگری</item>
+    </plurals>
+    <plurals name="notification_num_channels_desc">
+        <item quantity="one">اس ایپ سے %d اطلاع زمرہ میں سے 1</item>
+        <item quantity="other">اس ایپ سے %d اطلاع زمروں میں سے 1</item>
+    </plurals>
+    <plurals name="phone_locked_timeout_minutes_string">
+        <item quantity="one">%d منٹ میں دوبارہ کوشش کریں</item>
+        <item quantity="other">%d منٹ میں دوبارہ کوشش کریں</item>
+    </plurals>
+    <plurals name="phone_locked_timeout_seconds_string">
+        <item quantity="one">%d سیکنڈ میں دوبارہ کوشش کریں</item>
+        <item quantity="other">%d سیکنڈ میں دوبارہ کوشش کریں</item>
+    </plurals>
+    <plurals name="settings_toggle_position_divider_page">
+        <item quantity="one">اس بار کے اوپر %1$d ٹوگل فعال ہے</item>
+        <item quantity="other">اس بار کے اوپر %1$d ٹوگل فعال ہیں</item>
+    </plurals>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="one">اوورویو میں 1 اسکرین</item>
+        <item quantity="other">اوورویو میں %d اسکرین</item>
+    </plurals>
+    <plurals name="view_realtime_clear">
+        <item quantity="one">صاف</item>
+        <item quantity="other">صاف</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="one">%1$d ڈیوائس مربوط ہے</item>
+        <item quantity="other">%1$d ڈیوائس مربوط ہیں</item>
+    </plurals>
+</resources>

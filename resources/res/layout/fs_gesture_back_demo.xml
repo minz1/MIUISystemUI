@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/root_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+    <com.android.systemui.fsgesture.WidthAdaptiveView android:id="@+id/bg_view" android:background="@drawable/app_note" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.android.systemui.fsgesture.WidthAdaptiveView android:id="@+id/demo_activity" android:background="@drawable/fs_gesture_back_top" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.android.systemui.fsgesture.FsGestureDemoTitleView android:id="@+id/fsgesture_title_view" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <com.android.systemui.fsgesture.FsGestureDemoSwipeView android:id="@+id/fsgesture_swipe_view" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView android:scrollbarAlwaysDrawVerticalTrack="true" android:id="@android:id/list" android:visibility="gone" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:drawSelectorOnTop="false" android:cacheColorHint="@android:color/transparent"/>
+    <TextureView android:layout_gravity="center_horizontal" android:id="@+id/ir_camera_view" android:layout_width="1dp" android:layout_height="1dp"/>
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextureView android:layout_gravity="center_horizontal" android:id="@+id/camera_view" android:layout_width="193.3dp" android:layout_height="257.2969dp" android:layout_marginTop="81.3dp"/>
+        <com.android.keyguard.settings.CameraView android:layout_gravity="center_horizontal" android:id="@+id/camera_view_second" android:background="@color/face_unlock_input_camera_view_bg_color" android:layout_width="193.3dp" android:layout_height="257.2969dp" android:layout_marginTop="81.3dp"/>
+    </FrameLayout>
+    <TextView android:textSize="16.7sp" android:textColor="@color/face_unlock_input_title_color" android:layout_gravity="center_horizontal" android:id="@+id/miui_face_input_title" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/face_data_input_ok_title"/>
+    <TextView android:textSize="14sp" android:textColor="@color/face_unlock_introduction_msg_color" android:layout_gravity="center_horizontal" android:id="@+id/miui_face_input_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9dp" android:text="@string/face_data_input_camera_ok" android:lineSpacingExtra="1.3dp"/>
+    <LinearLayout android:gravity="bottom|center_vertical|center_horizontal|center" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginBottom="18.3dp" android:layout_weight="1" android:layout_marginStart="26.7dp" android:layout_marginEnd="26.7dp">
+        <Button android:id="@+id/miui_face_recoginition_input_ok" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/face_data_input_cancel"/>
+    </LinearLayout>
+</LinearLayout>

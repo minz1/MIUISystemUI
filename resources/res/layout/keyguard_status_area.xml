@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.android.systemui.statusbar.policy.DateView android:textColor="@color/clock_white" android:gravity="center" android:id="@+id/date_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:letterSpacing="0.15" style="@style/widget_label"/>
+    <TextView android:textColor="@color/clock_gray" android:gravity="center" android:id="@+id/alarm_status" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="6dp" android:drawableStart="@drawable/ic_access_alarms_big" android:layout_marginStart="6dp" android:letterSpacing="0.15" style="@style/widget_label"/>
+</LinearLayout>

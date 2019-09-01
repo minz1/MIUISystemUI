@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.android.keyguard.widget.GradientLinearLayout android:layout_gravity="top|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/gradient_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:layout_gravity="center" android:id="@+id/clock_hour" android:paddingTop="@dimen/aod_clock_padding_top_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="true" android:letterSpacing="0.05" style="@style/Aod_widget_vertical"/>
+        <TextView android:layout_gravity="center" android:id="@+id/clock_minute" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aod_clock_min_top_margin_hour" android:includeFontPadding="true" android:letterSpacing="0.05" style="@style/Aod_widget_vertical"/>
+        <TextView android:layout_gravity="center" android:id="@+id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/date_margin_bottom" android:includeFontPadding="false" style="@style/Aod_date_vertical"/>
+        <include layout="@layout/aod_battery"/>
+    </com.android.keyguard.widget.GradientLinearLayout>
+</FrameLayout>

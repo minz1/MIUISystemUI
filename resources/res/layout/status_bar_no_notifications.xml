@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.EmptyShadeView xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="16sp" android:textColor="@color/status_bar_no_notification_text_color" android:gravity="top|center_vertical|center_horizontal|center" android:id="@+id/no_notifications" android:paddingTop="28dp" android:layout_width="match_parent" android:layout_height="0dp" android:text="@string/empty_shade_text"/>
+</com.android.systemui.statusbar.EmptyShadeView>

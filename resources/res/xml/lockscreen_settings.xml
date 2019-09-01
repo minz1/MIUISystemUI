@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/other">
+    <Preference android:title="@string/lockscreen_shortcut_left" android:key="sysui_keyguard_left" android:fragment="com.android.systemui.tuner.ShortcutPicker"/>
+    <com.android.systemui.tuner.TunerSwitch android:title="@string/lockscreen_unlock_left" android:key="sysui_keyguard_left_unlock" app:defValue="true"/>
+    <Preference android:title="@string/lockscreen_shortcut_right" android:key="sysui_keyguard_right" android:fragment="com.android.systemui.tuner.ShortcutPicker"/>
+    <com.android.systemui.tuner.TunerSwitch android:title="@string/lockscreen_unlock_right" android:key="sysui_keyguard_right_unlock" app:defValue="true"/>
+</PreferenceScreen>

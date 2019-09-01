@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="18sp" android:textColor="@android:color/black" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wireless_charge_dialog_title"/>
+    <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="287dp" android:layout_height="222dp" android:layout_marginTop="23dp" android:layout_marginBottom="20dp">
+        <TextureView android:id="@+id/wireless_charge_video" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <ImageView android:id="@+id/wireless_charge_picture" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/wireless_charge_picture" android:scaleType="fitXY"/>
+    </FrameLayout>
+</LinearLayout>

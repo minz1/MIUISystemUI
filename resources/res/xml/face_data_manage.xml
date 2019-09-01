@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt">
+    <PreferenceCategory android:title="@string/face_data_manage_delete_title" android:key="delete_face_data">
+        <Preference android:persistent="false" android:title="@string/face_data_manage_delete_msg" android:key="delete_face_data_recoginition"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/face_data_manage_unlock_title" android:key="lock_screen_face_data">
+        <CheckBoxPreference android:persistent="false" android:title="@string/face_data_manage_unlock_title" android:key="apply_face_data_lock" android:summary="@string/face_data_manage_unlock_msg"/>
+        <CheckBoxPreference android:persistent="false" android:title="@string/face_unlock_success_stay_screen_title" android:key="face_unlock_success_stay_screen" android:summary="@string/face_unlock_success_stay_screen_msg"/>
+        <CheckBoxPreference android:persistent="false" android:title="@string/face_unlock_by_notification_screen_on_title" android:key="face_unlock_by_notification_screen_on" android:summary="@string/face_unlock_by_notification_screen_on_msg"/>
+    </PreferenceCategory>
+</PreferenceScreen>

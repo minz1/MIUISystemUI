@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="animator_duration_scale_entries">
+        <item>Animacija isključena</item>
+        <item>Brzina animacije 0,5×</item>
+        <item>Brzina animacije 1×</item>
+        <item>Brzina animacije 1,5×</item>
+        <item>Brzina animacije 2×</item>
+        <item>Brzina animacije 5×</item>
+        <item>Brzina animacije 10×</item>
+    </array>
+    <array name="app_process_limit_entries">
+        <item>Standardni limit</item>
+        <item>Nema pozadinskih procesa</item>
+        <item>Najviše 1 proces</item>
+        <item>Najviše 2 procesa</item>
+        <item>Najviše 3 procesa</item>
+        <item>Najviše 4 procesa</item>
+    </array>
+    <array name="aqi_title">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+    </array>
+    <array name="aqi_title_append">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+    </array>
+    <array name="aqi_title_prefix">
+        <item>Indeks kvaliteta zraka %1$s</item>
+        <item>Indeks kvaliteta zraka %1$s</item>
+        <item>Indeks kvaliteta zraka %1$s</item>
+        <item>Indeks kvaliteta zraka %1$s</item>
+        <item>Indeks kvaliteta zraka %1$s</item>
+        <item>Indeks kvaliteta zraka %1$s</item>
+        <item>Indeks kvaliteta zraka %1$s</item>
+    </array>
+    <array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </array>
+    <array name="battery_options">
+        <item>Uvijek prikaži procente</item>
+        <item>Prikaži procente pri punjenju (podrazumjevano)</item>
+        <item>Ne prikazuj ovu ikonu</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Koristi sistemsku selekciju (zadano)</item>
+        <item>16 bitа po uzorku</item>
+        <item>24 bitа po uzorku</item>
+        <item>32 bitа po uzorku</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Koristi sistemsku selekciju (zadano)</item>
+        <item>16 bitа po uzorku</item>
+        <item>24 bitа po uzorku</item>
+        <item>32 bitа po uzorku</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>Koristi sistemsku selekciju (zadano)</item>
+        <item>Mono</item>
+        <item>Stereo</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>Koristi sistemsku selekciju (zadano)</item>
+        <item>Mono</item>
+        <item>Stereo</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>Optimizirano za kvalitet zvuka</item>
+        <item>Balansiran kvalitet zvuka i veze</item>
+        <item>Optimizirano za kvalitet veze</item>
+        <item>Najbolji efekat (prilagodljiv protok)</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>Optimizirano za kvalitet zvuka (990 kbps/909 kbps)</item>
+        <item>Balansirani kvalitet zvuka i veze (660 kbps/606 kbps)</item>
+        <item>Optimizirano za kvalitet veze (330 kbps/303 kbps)</item>
+        <item>Najbolji efekat (prilagodljiv protok)</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>Koristi sistemsku selekciju (zadano)</item>
+        <item>44,1 kHz</item>
+        <item>48,0 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96,0 kHz</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>Koristi sistemsku selekciju (zadano)</item>
+        <item>44,1 kHz</item>
+        <item>48,0 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96,0 kHz</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_summaries">
+        <item>Koristi sistemsku selekciju (Zadano)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ audio</item>
+        <item>Qualcomm® aptX™ HD audio</item>
+        <item>LDAC</item>
+        <item>Qualcomm® aptX™ Adaptive audio</item>
+        <item>Omogući opcione kodeke</item>
+        <item>Onemogući opcione kodeke</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_titles">
+        <item>Koristi sistemsku selekciju (zadano)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ audio</item>
+        <item>Qualcomm® aptX™ HD audio</item>
+        <item>LDAC</item>
+        <item>Qualcomm® aptX™ Adaptive audio</item>
+        <item>Omogući dodatne Kodeke</item>
+        <item>Omogući dodatne Kodeke</item>
+    </array>
+    <array name="bluetooth_audio_active_device_summaries">
+        <item />
+        <item> | Aktivno</item>
+        <item> | Aktivno (medija)</item>
+        <item> | Aktivno (telefon)</item>
+    </array>
+    <array name="bluetooth_avrcp_version_values">
+        <item>avrcp14</item>
+        <item>avrcp13</item>
+        <item>avrcp15</item>
+        <item>avrcp16</item>
+    </array>
+    <array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.4 (zadato)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.5</item>
+        <item>AVRCP 1.6</item>
+    </array>
+    <array name="clock_options">
+        <item>Prikaži sate, minute i sekunde</item>
+        <item>Prikaži sate i minute (podrazumjevano)</item>
+        <item>Ne prikazuj ovu ikonu</item>
+    </array>
+    <array name="color_mode_descriptions">
+        <item>Naglašene boje</item>
+        <item>Prirodan doživljaj boje</item>
+        <item>Boje optimizovane za digitalni sadržaj</item>
+    </array>
+    <array name="color_mode_names">
+        <item>Živopisno (zadato)</item>
+        <item>Prirodno</item>
+        <item>Standardno</item>
+    </array>
+    <array name="debug_hw_overdraw_entries">
+        <item>Isključeno</item>
+        <item>Prikaži overdraw područja</item>
+        <item>Prikaži područja za deuteranomaliju</item>
+    </array>
+    <array name="enable_opengl_traces_entries">
+        <item>Ništa</item>
+        <item>Logcat</item>
+        <item>Systrace (grafika)</item>
+        <item>Pozovi stek glGetError</item>
+    </array>
+    <array name="hdcp_checking_summaries">
+        <item>Nikad ne upotrebljavaj HDCP provjeru</item>
+        <item>Koristi HDCP provjeru samo za DRM sadržaj</item>
+        <item>Uvijek koristi HDCP provjeru</item>
+    </array>
+    <array name="hdcp_checking_titles">
+        <item>Nikad ne provjeravaj</item>
+        <item>Provjeri samo DRM sadržaj</item>
+        <item>Uvijek provjeri</item>
+    </array>
+    <array name="miui_volume_timer_segments_title">
+        <item>Isklj.</item>
+        <item>30 minuta</item>
+        <item>1 sat</item>
+        <item>2 sata</item>
+        <item>8 sati</item>
+    </array>
+    <array name="nav_bar_buttons">
+        <item>Međumemorija</item>
+        <item>Keycode</item>
+        <item>Prebacivač tastature</item>
+        <item>Ništa</item>
+    </array>
+    <array name="nav_bar_layouts">
+        <item>Normalno</item>
+        <item>Kompaktno</item>
+        <item>Nagnuto na lijevo</item>
+        <item>Nagnuto na desno</item>
+    </array>
+    <array name="overlay_display_devices_entries">
+        <item>Ništa</item>
+        <item>480p</item>
+        <item>480p (sigurno)</item>
+        <item>720p</item>
+        <item>720p (sigurno)</item>
+        <item>1080p</item>
+        <item>1080p (sigurno)</item>
+        <item>4K</item>
+        <item>4K (sigurno)</item>
+        <item>4K (veća rezolucija)</item>
+        <item>4K (veća rezolucija, sigurno)</item>
+        <item>720p, 1080 p (dvostruki ekran)</item>
+    </array>
+    <array name="recents_blacklist_array">
+    </array>
+    <array name="select_logd_size_lowram_titles">
+        <item>Isključeno</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+    </array>
+    <array name="select_logd_size_summaries">
+        <item>Isključeno</item>
+        <item>64K po zapisu bafera</item>
+        <item>256K po zapisu bafera</item>
+        <item>1M po zapisu bafera</item>
+        <item>4M po zapisu bafera</item>
+        <item>16M po zapisu bafera</item>
+    </array>
+    <array name="select_logd_size_titles">
+        <item>Isključeno</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>16M</item>
+    </array>
+    <array name="select_logpersist_summaries">
+        <item>Isključeno</item>
+        <item>Svi baferi dnevnika</item>
+        <item>Sve osim bafera radio zapisa</item>
+        <item>Samo bafer Kernel zapisa</item>
+    </array>
+    <array name="select_logpersist_titles">
+        <item>Isključeno</item>
+        <item>Sve</item>
+        <item>Sve osim radija</item>
+        <item>Samo Kernel</item>
+    </array>
+    <array name="show_non_rect_clip_entries">
+        <item>Isključeno</item>
+        <item>Nacrtaj nepravougaoni dio isječka u plavoj boji</item>
+        <item>Istakni testirane komande crtanja u zelenoj boji</item>
+    </array>
+    <array name="track_frame_time_entries">
+        <item>Isključeno</item>
+        <item>Na ekranu u obliku trake</item>
+        <item>Za adb shell dumpsys gfxinfo</item>
+    </array>
+    <array name="transition_animation_scale_entries">
+        <item>Animacija isključena</item>
+        <item>Brzina animacije 0,5×</item>
+        <item>Brzina animacije 1×</item>
+        <item>Brzina animacije 1,5×</item>
+        <item>Brzina animacije 2×</item>
+        <item>Brzina animacije 5×</item>
+        <item>Brzina animacije 10×</item>
+    </array>
+    <array name="tts_rate_entries">
+        <item>Vrlo sporo</item>
+        <item>Sporo</item>
+        <item>Normalno</item>
+        <item>Brzo</item>
+        <item>Brže</item>
+        <item>Vrlo brzo</item>
+        <item>Ubrzano</item>
+        <item>Veoma ubrzano</item>
+        <item>Najbrže</item>
+    </array>
+    <array name="tts_rate_values">
+        <item>60</item>
+        <item>80</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>250</item>
+        <item>300</item>
+        <item>350</item>
+        <item>400</item>
+    </array>
+    <array name="usb_configuration_titles">
+        <item>Punjenje</item>
+        <item>MTP (protokol prenosa medija)</item>
+        <item>PTP (protokol prenosa slike)</item>
+        <item>RNDIS (USB Eternet)</item>
+        <item>Izvor zvuka</item>
+        <item>MIDI</item>
+    </array>
+    <array name="weather_type">
+        <item>Vedro</item>
+        <item>Oblačno</item>
+        <item>Oblačno</item>
+        <item>Maglovito</item>
+        <item>Jaka kiša</item>
+        <item>Pljusak</item>
+        <item>Kišna oluja</item>
+        <item>Oluja sa grmljavinom</item>
+        <item>Pljusak</item>
+        <item>Jake padavine</item>
+        <item>Umjerena kiša</item>
+        <item>Slaba kiša</item>
+        <item>Kiša i snijeg</item>
+        <item>Mećava</item>
+        <item>Snijeg</item>
+        <item>Jake snježne padavine</item>
+        <item>Umjerene snježne padavine</item>
+        <item>Susnježica</item>
+        <item>Jaka pješčana oluja</item>
+        <item>Pješčana oluja</item>
+        <item>Pijesak</item>
+        <item>Vjetrovito</item>
+        <item>Grad</item>
+        <item>Prašina</item>
+        <item>Izmaglica</item>
+        <item>Ledena kiša</item>
+        <item />
+    </array>
+    <array name="wifi_status">
+        <item />
+        <item>Skeniranje…</item>
+        <item>Povezivanje…</item>
+        <item>Autentifikacija…</item>
+        <item>Preuzimanje IP adrese…</item>
+        <item>Povezano</item>
+        <item>Obustavljeno</item>
+        <item>Diskonekcija…</item>
+        <item>Diskonektovano</item>
+        <item>Neuspješno</item>
+        <item>Blokirano</item>
+        <item>Privremeno izbjegavanje loše veze</item>
+    </array>
+    <array name="wifi_status_with_ssid">
+        <item />
+        <item>Skeniranje…</item>
+        <item>Povezivanje na %1$s…</item>
+        <item>Autentifikacija pomoću %1$s…</item>
+        <item>Preuzimanje IP adrese sa %1$s…</item>
+        <item>Povezan na %1$s</item>
+        <item>Suspendovano</item>
+        <item>Diskonekcija sa %1$s…</item>
+        <item>Diskonektovano</item>
+        <item>Neuspješno</item>
+        <item>Blokirano</item>
+        <item>Privremeno izbjegavanje loše veze</item>
+    </array>
+    <array name="window_animation_scale_entries">
+        <item>Animacija isključena</item>
+        <item>Brzina animacije 0,5×</item>
+        <item>Brzina animacije 1×</item>
+        <item>Brzina animacije 1,5×</item>
+        <item>Brzina animacije 2×</item>
+        <item>Brzina animacije 5×</item>
+        <item>Brzina animacije 10×</item>
+    </array>
+</resources>

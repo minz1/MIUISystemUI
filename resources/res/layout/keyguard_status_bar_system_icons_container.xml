@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/system_icons_super_container" android:layout_marginTop="@dimen/notch_status_bar_padding_top" android:layout_alignWithParentIfMissing="true" android:paddingStart="@dimen/statusbar_padding_start" android:paddingEnd="@dimen/statusbar_padding_end" android:layout_marginStart="@dimen/round_cornor_padding" android:layout_marginEnd="@dimen/round_cornor_padding" android:layout_alignParentEnd="true" style="@style/StatusBarSystemIconsContainerStyle">
+    <FrameLayout android:layout_gravity="center_vertical" android:id="@+id/system_icons_container" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <include layout="@layout/system_icons"/>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:height="@dimen/qs_tile_icon_size" android:width="@dimen/qs_tile_icon_size" android:viewportWidth="64" android:viewportHeight="64">
+    <path android:fillColor="@color/qs_tile_icon_disabled_color" android:pathData="M32 55C18.1 55.1 5.8 45.8 2.1 32.4 2 32.1 2 31.8 2.1 31.5 6.8 15.3 23.6 5.7 40.1 10.1c10.6 2.8 18.8 11 21.8 21.5 0.1 0.3 0.1 0.6 0 0.9C58.2 45.8 45.9 55.1 32 55ZM32 13C19.5 13 9.1 20.9 6.1 31.6 6 31.9 6 32.2 6.1 32.5 9.1 43.1 19.5 51 32 51 44.5 51 54.9 43.1 57.9 32.4 58 32.1 58 31.8 57.9 31.5 54.9 20.9 44.5 13 32 13Zm0 31c-6.6 0 -12 -5.4 -12 -12 0 -6.6 5.4 -12 12 -12 6.6 0 12 5.4 12 12 0 6.6 -5.4 12 -12 12zm0 -20c-4.4 0 -8 3.6 -8 8 0 4.4 3.6 8 8 8 4.4 0 8 -3.6 8 -8 0 -4.4 -3.6 -8 -8 -8z"/>
+</vector>

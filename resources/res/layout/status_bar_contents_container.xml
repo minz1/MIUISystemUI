@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/status_bar_contents" android:paddingTop="@dimen/notch_status_bar_padding_top" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/statusbar_padding_start" android:paddingEnd="@dimen/statusbar_padding_end" android:layout_marginStart="@dimen/round_cornor_padding" android:layout_marginEnd="@dimen/round_cornor_padding">
+    <FrameLayout android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/clock_container" style="@style/StatusBarClockContainerStyle">
+        <LinearLayout android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/leftside" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <include layout="@layout/status_bar_contents_clock"/>
+            <com.android.systemui.miui.widget.ClipEdgeLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/notch_leftear_icons" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+        </LinearLayout>
+    </FrameLayout>
+    <com.android.systemui.statusbar.AlphaOptimizedFrameLayout android:orientation="horizontal" android:id="@+id/notification_icon_area" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+    <include layout="@layout/status_bar_contents_system_icons"/>
+</LinearLayout>

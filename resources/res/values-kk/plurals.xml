@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="one">SIM PIN коды дұрыс емес. %d әрекет қалды. Одан кейін құрылғы құлпын ашу үшін операторға хабарласуға тура келеді.</item>
+        <item quantity="other">SIM PIN коды дұрыс емес. %d әрекет қалды.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="one">SIM PUK коды дұрыс емес. %d әрекет қалды. Одан кейін SIM біржола қолданыстан шығады.</item>
+        <item quantity="other">SIM PUK коды дұрыс емес. %d әрекет қалды. Одан кейін SIM біржола қолданыстан шығады.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="one">Құрылғы құлпы %d сағаттан бері ашылмаған. Құпия сөзді растаңыз.</item>
+        <item quantity="other">Құрылғы құлпы %d сағаттан бері ашылмаған. Құпия сөзді растаңыз.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="one">Құрылғы құлпы %d сағаттан бері ашылмаған. Өрнекті растаңыз.</item>
+        <item quantity="other">Құрылғы құлпы %d сағаттан бері ашылмаған. Өрнекті растаңыз.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="one">Құрылғы құлпы %d сағаттан бері ашылмаған. PIN кодын растаңыз.</item>
+        <item quantity="other">Құрылғы құлпы %d сағаттан бері ашылмаған. PIN кодын растаңыз.</item>
+    </plurals>
+    <plurals name="notification_channels_list_desc_2_and_others">
+        <item quantity="one">%1$s, %2$s және тағы %3$d</item>
+        <item quantity="other">%1$s, %2$s және тағы %3$d</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="one">Ішінде тағы %s хабарландыру.</item>
+        <item quantity="other">Ішінде тағы %s хабарландыру.</item>
+    </plurals>
+    <plurals name="notification_num_channels_desc">
+        <item quantity="one">Осы қолданбадан %d ішінен 1 хабарландыру санаты</item>
+        <item quantity="other">Осы қолданбадан %d ішінен 1 хабарландыру санаты</item>
+    </plurals>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="one">«Шолу» ішінде 1 экран</item>
+        <item quantity="other">«Шолу» ішінде %d экран</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="one">%1$d құрылғы қосылды</item>
+        <item quantity="other">%1$d құрылғы қосылды</item>
+    </plurals>
+</resources>

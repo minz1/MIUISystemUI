@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:height="@dimen/qs_tile_icon_size" android:width="@dimen/qs_tile_icon_size" android:viewportWidth="64" android:viewportHeight="64">
+    <path android:fillColor="@color/qs_tile_icon_disabled_color" android:pathData="M51.8 52.9c-1 0.4 -2.2 -0.1 -2.6 -1.1 0 0 0 0 0 0L42.5 37c0 0 -0.3 0 -0.5 0l-20 0c-0.2 0 -0.5 0 -0.5 0l-6.7 14.8c-0.4 1 -1.6 1.5 -2.6 1.1 -1 -0.4 -1.5 -1.6 -1.1 -2.6 0 0 0 0 0 0l19 -41.8c0.2 -0.6 0.6 -1.1 1.1 -1.4 0.5 -0.2 1.1 -0.2 1.6 0 0.6 0.2 0.9 0.8 1.1 1.4l18.9 41.7c0.5 1.1 0 2.2 -1 2.7zm-20 -38.7l-8.4 18.6c0 0.1 0 0.2 0.1 0.2l17 0c0.1 0 0.2 -0.1 0.1 -0.2L32.2 14.2C32.1 14 31.9 14 31.8 14.2Z"/>
+</vector>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:variablePadding="true">
+    <item android:state_pressed="true" android:drawable="@drawable/bugreport_btn_bg_pressed"/>
+    <item android:state_enabled="false" android:drawable="@drawable/bugreport_btn_bg_normal"/>
+    <item android:drawable="@drawable/bugreport_btn_bg_normal"/>
+</selector>

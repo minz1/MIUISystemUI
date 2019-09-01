@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="battery_margin_bottom">0dp</dimen>
+    <dimen name="notch_expanded_header_carrier_margin">4dp</dimen>
+</resources>

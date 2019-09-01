@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:height="24dp" android:width="24dp" android:viewportWidth="64" android:viewportHeight="64">
+    <path android:fillColor="@color/qs_detail_item_icon_color" android:pathData="M27 8l10 0c1.104569 0 2 0.8954305 2 2l0 10.171573c0 0.530433 -0.210714 1.039141 -0.585786 1.414213l-5.707107 5.707107c-0.390524 0.390524 -1.02369 0.390524 -1.414214 0L25.585786 21.585786C25.210714 21.210714 25 20.702006 25 20.171573L25 10c0 -1.1045695 0.89543 -2 2 -2z"/>
+    <group android:rotation="90" android:translateX="78.2071" android:translateY="-14.2071">
+        <path android:fillColor="@color/qs_detail_item_icon_color" android:pathData="M41.207107 22.207107l10 0c1.104569 0 2 0.89543 2 2l0 10.171573c0 0.530433 -0.210714 1.03914 -0.585787 1.414213L46.914214 41.5c-0.390525 0.390524 -1.02369 0.390524 -1.414214 0L39.792893 35.792893C39.41782 35.41782 39.207107 34.909113 39.207107 34.37868l0 -10.171573c0 -1.10457 0.89543 -2 2 -2z"/>
+    </group>
+    <group android:scaleX="-1" android:scaleY="-1" android:rotation="90" android:translateX="-14.2071" android:translateY="49.7929">
+        <path android:fillColor="@color/qs_detail_item_icon_color" android:pathData="M12.792893 22.207107l10 0c1.10457 0 2 0.89543 2 2l0 10.171573c0 0.530433 -0.210714 1.03914 -0.585786 1.414213L18.5 41.5c-0.390524 0.390524 -1.023689 0.390524 -1.414214 0L11.37868 35.792893C11.003607 35.41782 10.792893 34.909113 10.792893 34.37868l0 -10.171573c0 -1.10457 0.895431 -2 2 -2z"/>
+    </group>
+    <group android:scaleY="-1" android:translateY="92.4142">
+        <path android:fillColor="@color/qs_detail_item_icon_color" android:pathData="M27 36.414214l10 0c1.104569 0 2 0.89543 2 2l0 10.171572C39 49.116219 38.789286 49.624927 38.414214 50l-5.707107 5.707107c-0.390524 0.390524 -1.02369 0.390524 -1.414214 0L25.585786 50C25.210714 49.624927 25 49.116219 25 48.585786l0 -10.171572c0 -1.10457 0.89543 -2 2 -2z"/>
+    </group>
+</vector>

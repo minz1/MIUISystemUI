@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_minimal_size_resizable_task">150dp</dimen>
+    <dimen name="qs_customize_sub_title_text_size">12.67sp</dimen>
+    <dimen name="qs_customize_title_text_size">24sp</dimen>
+    <dimen name="recent_task_padding_bottom">4dp</dimen>
+</resources>

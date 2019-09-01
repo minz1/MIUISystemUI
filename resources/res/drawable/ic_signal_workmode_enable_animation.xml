@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/ic_signal_workmode_enable">
+    <target android:name="ic_signal_briefcase" android:animation="@anim/ic_signal_workmode_enable_animation_ic_signal_briefcase"/>
+    <target android:name="mask" android:animation="@anim/ic_signal_workmode_enable_animation_mask"/>
+    <target android:name="cross_1" android:animation="@anim/ic_signal_workmode_enable_animation_cross_1"/>
+</animated-vector>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.android.keyguard.widget.GradientLinearLayout android:orientation="horizontal" android:id="@+id/icons" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.android.keyguard.BadgetImageView android:id="@+id/first" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.android.keyguard.BadgetImageView android:id="@+id/second" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/icon_margin_start"/>
+        <com.android.keyguard.BadgetImageView android:id="@+id/third" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/icon_margin_start"/>
+    </com.android.keyguard.widget.GradientLinearLayout>
+</FrameLayout>

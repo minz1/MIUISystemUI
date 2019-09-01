@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.SignalClusterView xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/signal_cluster" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:layoutDirection="ltr" android:paddingEnd="@dimen/signal_cluster_battery_padding">
+    <ImageView android:id="@+id/vpn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/stat_sys_vpn" android:contentDescription="@string/accessibility_vpn_on"/>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@+id/mobile_simple_dual_mobile_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/status_bar_height">
+        <com.android.systemui.statusbar.AnimatedImageView android:id="@+id/simple_dual_mobile_signal1" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.android.systemui.statusbar.AnimatedImageView android:id="@+id/simple_dual_mobile_signal2" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/ethernet_combo" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.android.systemui.statusbar.AlphaOptimizedImageView android:theme="?attr/lightIconTheme" android:id="@+id/ethernet" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.android.systemui.statusbar.AlphaOptimizedImageView android:theme="?attr/darkIconTheme" android:id="@+id/ethernet_dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0"/>
+    </FrameLayout>
+    <ViewStub android:id="@+id/connected_device_signals_stub" android:layout="@layout/connected_device_signal" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <LinearLayout android:id="@+id/mobile_signal_group_0" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <com.android.systemui.statusbar.AnimatedImageView android:layout_gravity="center_vertical" android:id="@+id/vowifi_0" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/stat_sys_vowifi"/>
+    <LinearLayout android:id="@+id/mobile_signal_group_1" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <com.android.systemui.statusbar.AnimatedImageView android:layout_gravity="center_vertical" android:id="@+id/vowifi_1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/stat_sys_vowifi"/>
+    <com.android.systemui.statusbar.AnimatedImageView android:theme="@style/DualToneLightTheme" android:id="@+id/demo_mobile_signal" android:layout_width="wrap_content" android:layout_height="wrap_content" app:hasOverlappingRendering="false"/>
+    <LinearLayout android:id="@+id/mobile_signal_group_dual_notch" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <include layout="@layout/mobile_signal_group_dual_notch"/>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/no_sims_combo" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/accessibility_no_sims">
+        <com.android.systemui.statusbar.AlphaOptimizedImageView android:id="@+id/no_sims" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/stat_sys_no_sim"/>
+        <com.android.systemui.statusbar.AlphaOptimizedImageView android:id="@+id/no_sims_dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/stat_sys_no_sim_darkmode" android:alpha="0"/>
+    </FrameLayout>
+    <ImageView android:id="@+id/airplane" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <com.android.systemui.statusbar.AnimatedImageView android:id="@+id/wifi_ap_on" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/stat_sys_wifi_ap_on"/>
+    <FrameLayout android:id="@+id/wifi_combo" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.android.systemui.statusbar.AlphaOptimizedImageView android:id="@+id/wifi_signal" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.android.systemui.statusbar.AnimatedImageView android:id="@+id/wifi_ap_connect_mark" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/stat_sys_wifi_ap"/>
+        <ImageView android:id="@+id/wifi_inout" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </FrameLayout>
+    <LinearLayout android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <com.android.systemui.miui.statusbar.WifiLabelText android:textAppearance="@style/TextAppearance.StatusBar.Carrier" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@+id/wifi_label" android:paddingBottom="@dimen/statusbar_text_bottom_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:maxEms="8" android:singleLine="true" android:marqueeRepeatLimit="1"/>
+    </LinearLayout>
+    <View android:id="@+id/wifi_signal_spacer" android:visibility="gone" android:layout_width="@dimen/status_bar_wifi_signal_spacer_width" android:layout_height="4dp"/>
+</com.android.systemui.statusbar.SignalClusterView>

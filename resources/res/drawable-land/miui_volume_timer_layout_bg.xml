@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="left">
+        <shape>
+            <solid android:color="@color/miui_volume_divider"/>
+            <size android:width="1px"/>
+        </shape>
+    </item>
+    <item>
+        <color android:color="@android:color/transparent"/>
+    </item>
+</layer-list>

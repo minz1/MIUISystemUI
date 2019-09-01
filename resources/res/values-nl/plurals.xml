@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_recent_task_enter">
+        <item quantity="one">Recent gebruikt geopend, beschikbare app: %d.</item>
+        <item quantity="other">Recent gebruikt geopend, beschikbare apps: %d.</item>
+    </plurals>
+    <plurals name="accessibility_recent_task_first_enter_tips">
+        <item quantity="one">Recent gebruikt geopend, beschikbare app: %d. Veeg omhoog om te verwijderen, veeg omlaag om te vergrendelen.</item>
+        <item quantity="other">Recent gebruikt geopend, beschikbare apps: %d. Veeg omhoog om te verwijderen, veeg omlaag om te vergrendelen.</item>
+    </plurals>
+    <plurals name="aod_dual_togother_city">
+        <item quantity="one">&quot; &quot;%s Uur %s</item>
+        <item quantity="other">&quot; &quot;%s Uur %s</item>
+    </plurals>
+    <plurals name="block_record_notification_more_text">
+        <item quantity="one">Meldingen van %1$s &amp; %2$d app worden verborgen.</item>
+        <item quantity="other">Meldingen van %1$s &amp; %2$d apps worden verborgen.</item>
+    </plurals>
+    <plurals name="disable_notification_confirm_title">
+        <item quantity="one">Notificaties van deze app verbergen?</item>
+        <item quantity="other">Notificaties van deze %d apps verbergen?</item>
+    </plurals>
+    <plurals name="fold_tips_title">
+        <item quantity="one">%d onbelangrijke melding</item>
+        <item quantity="other">%d onbelangrijke meldingen</item>
+    </plurals>
+    <plurals name="incorrect_pincode_remaining_attempts">
+        <item quantity="one">Ongeldige PIN, %d resterende pogingen</item>
+        <item quantity="other">Ongeldige PIN, %d resterende pogingen</item>
+    </plurals>
+    <plurals name="incorrect_pukcode_remaining_attempts">
+        <item quantity="one">Ongeldige PUK-code, %d resterende pogingen</item>
+        <item quantity="other">Ongeldige PUK-code, %d resterende pogingen</item>
+    </plurals>
+    <plurals name="input_password_after_timeout_msg">
+        <item quantity="one">Voer uw wachtwoord tenminste eens elk %d uur in om deze te blijven onthouden</item>
+        <item quantity="other">Voer uw wachtwoord tenminste eens elke %d uur in om deze te blijven onthouden</item>
+    </plurals>
+    <plurals name="input_pattern_after_timeout_msg">
+        <item quantity="one">Voer uw wachtwoord tenminste eens elk %d uur in om deze te blijven onthouden</item>
+        <item quantity="other">Voer uw wachtwoord tenminste eens elke %d uur in om deze te blijven onthouden</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_could_use_hour_time_text">
+        <item quantity="one">Nog ongeveer %d uur resterend</item>
+        <item quantity="other">Nog ongeveer %d uren resterend</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_could_use_min_time_text">
+        <item quantity="one">Nog ongeveer %d  minuut resterend</item>
+        <item quantity="other">Nog ongeveer %d  minuten resterend</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_could_use_time_text">
+        <item quantity="one">Nog ongeveer %d h %d  minuut resterend</item>
+        <item quantity="other">Nog ongeveer %d h %d  minuten resterend</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_hour_time_format">
+        <item quantity="one">%d uur</item>
+        <item quantity="other">%d uur</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_min_time_format">
+        <item quantity="one">%d minuut</item>
+        <item quantity="other">%d minuten</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_time_format">
+        <item quantity="one">%d u %d m</item>
+        <item quantity="other">%d u %d m</item>
+    </plurals>
+    <plurals name="keyguard_extreme_power_info_could_use_hour_time_text">
+        <item quantity="one">%d uur resterend</item>
+        <item quantity="other">%d uur resterend</item>
+    </plurals>
+    <plurals name="keyguard_extreme_power_info_could_use_min_time_text">
+        <item quantity="one">%d minuut resterend</item>
+        <item quantity="other">%d minuten resterend</item>
+    </plurals>
+    <plurals name="keyguard_extreme_power_info_could_use_time_text">
+        <item quantity="one">%d u %d m resterend</item>
+        <item quantity="other">%d u %d m resterend</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="one">Voer SIM-pincode in, u heeft %d resterende pogingen voordat u contact op moet nemen met uw provider, om uw apparaat te ontgrendelen.</item>
+        <item quantity="other">Vul SIM-pincode in, u heeft %d resterende pogingen.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="one">SIM is nu uitgeschakeld. Voer uw PUK-code in om door te gaan. U heeft %d resterende pogingen voordat uw SIM permanent onbruikbaar is. Contacteer uw provider voor meer informatie.</item>
+        <item quantity="other">SIM is nu uitgeschakeld. Voer uw PUK-code in om door te gaan. U heeft %d resterende pogingen voordat uw SIM permanent onbruikbaar is. Contacteer uw provider voor meer informatie.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="one">Foutieve SIM-pincode. U heeft %d resterende pogingen voordat u contact met uw provider op moet nemen, om uw apparaat te ontgrendelen.</item>
+        <item quantity="other">Foutieve SIM-pincode. U heeft %d resterende pogingen.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="one">Onjuiste SIM PUK-code, u heeft %d resterende poging voordat uw SIM permanent onbruikbaar is.</item>
+        <item quantity="other">Onjuiste SIM PUK-code, u heeft %d resterende pogingen voordat uw SIM permanent onbruikbaar is.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="one">Apparaat is niet ontgrendeld voor %d uur. Bevestig wachtwoord.</item>
+        <item quantity="other">Apparaat is niet ontgrendeld voor %d uren. Bevestig wachtwoord.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="one">Apparaat is niet ontgrendeld voor %d uur. Bevestig patroon.</item>
+        <item quantity="other">Apparaat is niet ontgrendeld voor %d uur. Bevestig patroon.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="one">Apparaat is niet ontgrendeld voor %d uur. Bevestig PIN.</item>
+        <item quantity="other">Apparaat is niet ontgrendeld voor %d uren. Bevestig PIN.</item>
+    </plurals>
+    <plurals name="new_notifications_msg">
+        <item quantity="one">%d nieuwe melding</item>
+        <item quantity="other">%d nieuwe meldingen</item>
+    </plurals>
+    <plurals name="notification_channels_list_desc_2_and_others">
+        <item quantity="one">%1$s,%2$s, en%3$d andere</item>
+        <item quantity="other">%1$s,%2$s, en%3$d anderen</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="one">%s meer melding binnen.</item>
+        <item quantity="other">%s meer meldingen binnen.</item>
+    </plurals>
+    <plurals name="notification_num_channels">
+        <item quantity="one">%d notificatie-categorie</item>
+        <item quantity="other">%d notificatie-categorieën</item>
+    </plurals>
+    <plurals name="notification_num_channels_desc">
+        <item quantity="one">1 uit %d meldingscategorie van deze app</item>
+        <item quantity="other">1 uit %d meldingscategorieën van deze app</item>
+    </plurals>
+    <plurals name="phone_locked_timeout_minutes_string">
+        <item quantity="one">Probeer opnieuw in %d minuut</item>
+        <item quantity="other">Probeer opnieuw in %d minuten</item>
+    </plurals>
+    <plurals name="phone_locked_timeout_seconds_string">
+        <item quantity="one">Probeer opnieuw in %d seconden</item>
+        <item quantity="other">Probeer opnieuw in %d seconden</item>
+    </plurals>
+    <plurals name="settings_toggle_position_divider_page">
+        <item quantity="one">%1$dschakelaar boven deze balk is actief</item>
+        <item quantity="other">%1$d schakelaars boven deze balk zijn actief</item>
+    </plurals>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="one">1 scherm in Overzicht</item>
+        <item quantity="other">%d schermen in Overzicht</item>
+    </plurals>
+    <plurals name="view_realtime_clear">
+        <item quantity="one">Helder</item>
+        <item quantity="other">Helder</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="one">%1$d apparaat verbonden</item>
+        <item quantity="other">%1$d apparaten verbonden</item>
+    </plurals>
+</resources>

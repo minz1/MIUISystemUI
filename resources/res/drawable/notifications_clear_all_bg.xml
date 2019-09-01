@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:shape="oval">
+    <stroke android:width="@dimen/notification_clear_all_bg_stroke_width" android:color="@color/notification_clear_all_bg_stroke"/>
+    <solid android:color="@color/notification_clear_all_bg_color"/>
+    <size android:height="@dimen/notification_clear_all_size" android:width="@dimen/notification_clear_all_size"/>
+</shape>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:background="@color/task_access_locked_app_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/task_access_locked_app_padding_vertical" android:paddingEnd="@dimen/task_access_locked_app_padding_vertical">
+    <View android:layout_width="1px" android:layout_height="0px" android:layout_weight="0.38"/>
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/security_app_lock" android:layout_weight="0"/>
+    <View android:layout_width="1px" android:layout_height="0px" android:layout_weight="0.12"/>
+    <TextView android:textColor="@color/task_access_locked_app_msg" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/task_access_locked_app_msg" android:layout_weight="0"/>
+    <View android:layout_width="1px" android:layout_height="0px" android:layout_weight="0.5"/>
+</LinearLayout>

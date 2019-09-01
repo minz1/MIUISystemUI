@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.keyguard.widget.SunClockView xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/clock" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.android.keyguard.widget.GradientLinearLayout android:orientation="vertical" android:id="@+id/gradient_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/sun_text_size" android:textStyle="bold" android:textColor="@color/clock_text_color" android:layout_gravity="center" android:id="@+id/clock_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="true" android:letterSpacing="1.7"/>
+    </com.android.keyguard.widget.GradientLinearLayout>
+</com.android.keyguard.widget.SunClockView>

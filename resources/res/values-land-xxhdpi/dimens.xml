@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="miui_volume_footer_margin_left_expanded">9.33dp</dimen>
+    <dimen name="miui_volume_ringer_btn_layout_width">50.67dp</dimen>
+    <dimen name="notification_panel_width">420.6641dp</dimen>
+    <dimen name="qs_page_indicator_dot_bottom_margin">5.33dp</dimen>
+    <dimen name="qs_quick_panel_content_padding_bottom">18.67dp</dimen>
+    <dimen name="qs_quick_panel_content_padding_horizontal">18dp</dimen>
+    <dimen name="qs_quick_panel_content_padding_top">18.67dp</dimen>
+    <dimen name="qs_tile_content_height">186dp</dimen>
+    <dimen name="qs_tile_content_margin_bottom">16dp</dimen>
+    <dimen name="qs_tile_content_margin_horizontal">3.665dp</dimen>
+    <dimen name="qs_tile_content_margin_top">7.33dp</dimen>
+    <dimen name="recent_task_padding_bottom">6dp</dimen>
+</resources>

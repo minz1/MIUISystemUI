@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" android:enterFadeDuration="200">
+    <item android:state_selected="true" android:color="?unknown_attr_ref: 10010084"/>
+    <item android:state_selected="false" android:color="@color/miui_volume_bg_color" android:state_activated="true"/>
+    <item android:color="@android:color/transparent"/>
+</selector>

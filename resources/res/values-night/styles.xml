@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearance.QS.QSCustomizer.SubTitle">
+        <item name="android:textSize">@dimen/qs_customize_sub_title_text_size</item>
+        <item name="android:alpha">0.8</item>
+    </style>
+    <style name="TextAppearance.QS.QSCustomizer.Title">
+        <item name="android:textSize">@dimen/qs_customize_title_text_size</item>
+    </style>
+    <style name="Theme.AppCompat.DayNight">
+    </style>
+    <style name="Theme.AppCompat.DayNight.DarkActionBar">
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog">
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog.Alert">
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog.MinWidth">
+    </style>
+    <style name="Theme.AppCompat.DayNight.DialogWhenLarge">
+    </style>
+    <style name="Theme.AppCompat.DayNight.NoActionBar">
+    </style>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="@dimen/ksh_layout_width" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ScrollView android:id="@+id/keyboard_shortcuts_scroll_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@+id/keyboard_shortcuts_container" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </ScrollView>
+        <View android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:background="?android:attr/dividerHorizontal" android:layout_width="match_parent" android:layout_height="1dp"/>
+</FrameLayout>

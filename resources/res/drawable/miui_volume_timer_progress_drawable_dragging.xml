@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scale xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:scaleWidth="100%" android:scaleGravity="start">
+    <layer-list>
+        <item android:id="@+id/miui_volume_timer_progress_dragging_rect">
+            <shape android:shape="rectangle">
+                <solid android:color="?unknown_attr_ref: 10010084"/>
+                <corners android:radius="@dimen/miui_volume_timer_corner_radius"/>
+            </shape>
+        </item>
+        <item android:id="@+id/miui_volume_timer_progress_dragging_rect_idle">
+            <shape android:shape="rectangle">
+                <solid android:color="@color/miui_volume_dragging_idle_color"/>
+                <corners android:radius="@dimen/miui_volume_timer_corner_radius"/>
+            </shape>
+        </item>
+        <item android:gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/miui_volume_timer_progress_dragging_icon">
+            <rotate android:drawable="@drawable/ic_miui_volume_timer" android:fromDegrees="@integer/miui_volume_timer_icon_rotation" android:toDegrees="@integer/miui_volume_timer_icon_rotation"/>
+        </item>
+    </layer-list>
+</scale>

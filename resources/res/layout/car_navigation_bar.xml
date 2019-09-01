@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.car.CarNavigationBarView xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:background="@drawable/system_nav_bar_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/nav_buttons" android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/car_navigation_bar_width" android:layout_height="match_parent" android:animateLayoutChanges="true"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/lights_out" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</com.android.systemui.statusbar.car.CarNavigationBarView>

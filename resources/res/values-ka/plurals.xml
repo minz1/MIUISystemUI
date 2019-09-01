@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="one">SIM ბარათის PIN-კოდი არასწორია. თქვენ დაგრჩათ %d მცდელობა, რომლის შემდეგაც თქვენი მოწყობილობის განსაბლოკად თქვენს ოპერატორთან დაკავშირება მოგიწევთ.</item>
+        <item quantity="other">SIM ბარათის PIN-კოდი არასწორია. თქვენ დაგრჩათ %d მცდელობა.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="one">SIM ბარათის PUK-კოდი არასწორია. თქვენ დაგრჩათ %d მცდელობა, რომლის შემდეგაც თქვენი SIM სამუდამოდ გამოუსადეგარი გახდება.</item>
+        <item quantity="other">SIM ბარათის PUK-კოდი არასწორია. თქვენ დაგრჩათ %d მცდელობა, რომელთა შემდეგაც თქვენი SIM სამუდამოდ გამოუსადეგარი გახდება.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="one">მოწყობილობა არ განბლოკილა %d საათის განმავლობაში. დაადასტურეთ პაროლი.</item>
+        <item quantity="other">მოწყობილობა არ განბლოკილა %d საათის განმავლობაში. დაადასტურეთ პაროლი.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="one">მოწყობილობა არ განბლოკილა %d საათის განმავლობაში. დაადასტურეთ ნიმუში.</item>
+        <item quantity="other">მოწყობილობა არ განბლოკილა %d საათის განმავლობაში. დაადასტურეთ ნიმუში.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="one">მოწყობილობა არ განბლოკილა %d საათის განმავლობაში. დაადასტურეთ PIN-კოდი.</item>
+        <item quantity="other">მოწყობილობა არ განბლოკილა %d საათის განმავლობაში. დაადასტურეთ PIN-კოდი.</item>
+    </plurals>
+    <plurals name="notification_channels_list_desc_2_and_others">
+        <item quantity="one">%1$s, %2$s და %3$d სხვა</item>
+        <item quantity="other">%1$s, %2$s და %3$d სხვა</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="one">კიდევ %s შეტყობინება ჯგუფში.</item>
+        <item quantity="other">კიდევ %s შეტყობინება ჯგუფში.</item>
+    </plurals>
+    <plurals name="notification_num_channels_desc">
+        <item quantity="one">ამ აპის შეტყობინებების %d კატეგორიიდან 1</item>
+        <item quantity="other">ამ აპის შეტყობინებების %d კატეგორიიდან 1</item>
+    </plurals>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="one">1 ეკრანი მიმოხილვაში</item>
+        <item quantity="other">%d ეკრანი მიმოხილვაში</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="one">დაკავშირებულია %1$d მოწყობილობა</item>
+        <item quantity="other">დაკავშირებულია %1$d მოწყობილობა</item>
+    </plurals>
+</resources>

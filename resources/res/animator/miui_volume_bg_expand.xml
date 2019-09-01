@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator android:interpolator="@interpolator/miui_volume_decelerate_quart" android:duration="@integer/miui_volume_expand_animation_duration" android:valueFrom="0" android:valueTo="1" android:valueType="floatType" android:propertyName="expandFraction"/>
+</set>

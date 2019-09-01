@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/ic_hotspot_disable">
+    <target android:name="mask" android:animation="@anim/ic_hotspot_disable_animation_mask"/>
+    <target android:name="cross_1" android:animation="@anim/ic_hotspot_disable_animation_cross_1"/>
+</animated-vector>

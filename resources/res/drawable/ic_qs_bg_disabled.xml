@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:height="@dimen/qs_tile_icon_bg_size" android:width="@dimen/qs_tile_icon_bg_size" android:viewportWidth="138" android:viewportHeight="138">
+    <group android:translateX="4" android:translateY="4">
+        <path android:fillColor="@color/qs_tile_icon_bg_disabled_color" android:pathData="M130 65A65 65 0 0 1 65 130 65 65 0 0 1 0 65 65 65 0 0 1 65 0 65 65 0 0 1 130 65Z"/>
+        <path android:pathData="M131 65A66 66 0 0 1 65 131 66 66 0 0 1 -1 65 66 66 0 0 1 65 -1 66 66 0 0 1 131 65Z" android:strokeColor="@color/qs_tile_icon_border_color" android:strokeWidth="2"/>
+    </group>
+</vector>

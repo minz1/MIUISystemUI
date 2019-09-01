@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:background="@android:color/transparent" android:fitsSystemWindows="false" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/keyguard_bouncer_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    <include android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/keyguard_host_view" style="@style/BouncerSecurityContainer"/>
+    <ImageView android:id="@+id/notch_corner_security" android:background="@drawable/screen_round_corner_notch" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</FrameLayout>

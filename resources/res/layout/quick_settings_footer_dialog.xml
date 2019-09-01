@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/scrollView" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="?android:attr/dialogPreferredPadding" android:paddingTop="?android:attr/dialogPreferredPadding" android:paddingRight="?android:attr/dialogPreferredPadding" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@+id/device_management_disclosures" android:paddingBottom="?android:attr/dialogPreferredPadding" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="?android:attr/textColorPrimary" android:id="@+id/device_management_subtitle" android:paddingBottom="@dimen/qs_footer_dialog_subtitle_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/monitoring_title_device_owned" style="@style/TextAppearance.Material.Title"/>
+            <TextView android:textColor="?android:attr/textColorPrimary" android:id="@+id/device_management_warning" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@null" style="@style/TextAppearance.Material.Subhead"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/ca_certs_disclosures" android:paddingBottom="?android:attr/dialogPreferredPadding" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="?android:attr/textColorPrimary" android:id="@+id/ca_certs_subtitle" android:paddingBottom="@dimen/qs_footer_dialog_subtitle_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/monitoring_subtitle_ca_certificate" style="@style/TextAppearance.Material.Title"/>
+            <TextView android:textColor="?android:attr/textColorPrimary" android:id="@+id/ca_certs_warning" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@null" style="@style/TextAppearance.Material.Subhead"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/network_logging_disclosures" android:paddingBottom="?android:attr/dialogPreferredPadding" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="?android:attr/textColorPrimary" android:id="@+id/network_logging_subtitle" android:paddingBottom="@dimen/qs_footer_dialog_subtitle_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/monitoring_subtitle_network_logging" style="@style/TextAppearance.Material.Title"/>
+            <TextView android:textColor="?android:attr/textColorPrimary" android:id="@+id/network_logging_warning" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@null" style="@style/TextAppearance.Material.Subhead"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/vpn_disclosures" android:paddingBottom="?android:attr/dialogPreferredPadding" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="?android:attr/textColorPrimary" android:id="@+id/vpn_subtitle" android:paddingBottom="@dimen/qs_footer_dialog_subtitle_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/monitoring_subtitle_vpn" style="@style/TextAppearance.Material.Title"/>
+            <TextView android:textColor="?android:attr/textColorPrimary" android:id="@+id/vpn_warning" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@null" style="@style/TextAppearance.Material.Subhead"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

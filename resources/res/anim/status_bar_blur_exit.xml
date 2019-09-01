@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android">
+    <alpha android:interpolator="@android:anim/accelerate_interpolator" android:duration="@integer/status_bar_blur_exit_time" android:fromAlpha="1" android:toAlpha="0"/>
+</set>

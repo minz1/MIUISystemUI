@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <corners android:radius="@dimen/panel_content_corner_radius"/>
+    <solid android:color="@color/qs_brightness_progress_color"/>
+    <size android:height="@dimen/qs_brightness_dialog_height"/>
+</shape>

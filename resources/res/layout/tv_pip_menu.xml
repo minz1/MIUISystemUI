@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="top|center_vertical|center_horizontal|center" android:orientation="horizontal" android:background="#cc000000" android:paddingTop="350dp" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.android.systemui.pip.tv.PipControlsView android:id="@+id/pip_controls" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0"/>
+</LinearLayout>

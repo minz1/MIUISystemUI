@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android">
+    <set android:ordering="sequentially">
+        <objectAnimator android:interpolator="@android:interpolator/linear" android:duration="183" android:valueFrom="231" android:valueTo="231" android:valueType="floatType" android:propertyName="rotation"/>
+        <objectAnimator android:interpolator="@interpolator/lockscreen_fingerprint_fp_to_error_state_animation_interpolator_4" android:duration="400" android:valueFrom="231" android:valueTo="0" android:valueType="floatType" android:propertyName="rotation"/>
+    </set>
+</set>

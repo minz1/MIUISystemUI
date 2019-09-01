@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:variablePadding="true">
+    <item android:state_pressed="true" android:drawable="@drawable/action_bar_back_pressed_light"/>
+    <item android:state_enabled="false" android:drawable="@drawable/action_bar_back_normal_light"/>
+    <item android:drawable="@drawable/action_bar_back_normal_light"/>
+</selector>

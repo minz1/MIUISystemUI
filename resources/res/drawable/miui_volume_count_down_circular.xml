@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:fromDegrees="270" android:toDegrees="270">
+    <shape android:shape="ring" android:innerRadiusRatio="2.5" android:useLevel="true" android:thickness="@dimen/miui_volume_count_down_progress_thickness">
+        <gradient android:startColor="@color/miui_volume_color_primary" android:endColor="@color/miui_volume_color_primary" android:useLevel="false" android:angle="0" android:type="sweep"/>
+    </shape>
+</rotate>

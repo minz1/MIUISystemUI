@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="show_carrier_in_status_bar_header">true</bool>
+</resources>

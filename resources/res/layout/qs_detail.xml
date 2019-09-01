@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.qs.QSDetail xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/qs_detail" android:paddingTop="@dimen/qs_detail_margin_top" android:paddingBottom="@dimen/qs_detail_margin_bottom" android:visibility="invisible" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:elevation="4dp">
+    <LinearLayout android:orientation="vertical" android:id="@+id/qs_detail_container" android:background="@drawable/qs_detail_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:id="@+id/qs_detail_header" layout="@layout/qs_detail_header"/>
+        <include android:id="@+id/top_divider" layout="@layout/qs_divider"/>
+        <com.android.systemui.qs.NonInterceptingScrollView android:layout_width="match_parent" android:layout_height="0dp" android:fillViewport="true" android:layout_weight="1">
+            <FrameLayout android:id="@android:id/content" android:background="@color/qs_detail_content_background_color" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </com.android.systemui.qs.NonInterceptingScrollView>
+        <include layout="@layout/qs_divider"/>
+        <include layout="@layout/qs_detail_buttons"/>
+    </LinearLayout>
+</com.android.systemui.qs.QSDetail>

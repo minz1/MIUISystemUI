@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_recent_task_enter">
+        <item quantity="one">Hiljutised avatud, kättesaadav rakendus %d.</item>
+        <item quantity="other">Hiljutised avatud, kättesaadavad rakendused %d.</item>
+    </plurals>
+    <plurals name="accessibility_recent_task_first_enter_tips">
+        <item quantity="one">Hiljutised avatud, kättesaadav rakendus: %d. Pühkige eemaldamiseks üles, pühkige lukustamiseks alla.</item>
+        <item quantity="other">Hiljutised avatud, kättesaadavad rakendused: %d. Pühkige eemaldamiseks üles, pühkige lukustamiseks alla.</item>
+    </plurals>
+    <plurals name="aod_dual_togother_city">
+        <item quantity="one">&quot; &quot;%s tund %s</item>
+        <item quantity="other">&quot; &quot;%s tundi %s</item>
+    </plurals>
+    <plurals name="block_record_notification_more_text">
+        <item quantity="one">Peidan märguanded %1$s ja %2$d rakendustel.</item>
+        <item quantity="other">Peidan märguanded %1$s ja %2$d rakendustel.</item>
+    </plurals>
+    <plurals name="disable_notification_confirm_title">
+        <item quantity="one">Peida selle rakenduse teavitused?</item>
+        <item quantity="other">Peida %d rakenduste teavitused?</item>
+    </plurals>
+    <plurals name="fold_tips_title">
+        <item quantity="one">%d ebaoluline teavitus</item>
+        <item quantity="other">%d ebaolulist teavitust</item>
+    </plurals>
+    <plurals name="incorrect_pincode_remaining_attempts">
+        <item quantity="one">Vale PIN kood, võid proovida veel, %d korra</item>
+        <item quantity="other">Vale PIN kood, võid proovida veel, %d korda</item>
+    </plurals>
+    <plurals name="incorrect_pukcode_remaining_attempts">
+        <item quantity="one">Vale PUK kood, võid proovida veel %d korra</item>
+        <item quantity="other">Vale PUK kood, võid proovida veel %d korda</item>
+    </plurals>
+    <plurals name="input_password_after_timeout_msg">
+        <item quantity="one">Sisesta oma salasõna vähemalt iga %d tunni tagant, et see alatiseks meelde jätta</item>
+        <item quantity="other">Sisesta oma salasõna vähemalt iga %d tunni tagant, et see alatiseks meelde jätta</item>
+    </plurals>
+    <plurals name="input_pattern_after_timeout_msg">
+        <item quantity="one">Sisesta oma salasõna vähemalt iga %d tunni tagant, et see alatiseks meelde jätta</item>
+        <item quantity="other">Sisesta oma salasõna vähemalt iga %d tunni tagant, et see alatiseks meelde jätta</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_could_use_hour_time_text">
+        <item quantity="one">Jäänud umbes %d tund</item>
+        <item quantity="other">Jäänud umbes %d tundi</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_could_use_min_time_text">
+        <item quantity="one">Jäänud umbes %d minut</item>
+        <item quantity="other">Jäänud umbes %d minutit</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_could_use_time_text">
+        <item quantity="one">Jäänud umbes %d h %d m</item>
+        <item quantity="other">Jäänud umbes %d h %d m</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_hour_time_format">
+        <item quantity="one">%d tund</item>
+        <item quantity="other">%d tundi</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_min_time_format">
+        <item quantity="one">%d minut</item>
+        <item quantity="other">%d minutit</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_time_format">
+        <item quantity="one">%d h %d m</item>
+        <item quantity="other">%d h %d m</item>
+    </plurals>
+    <plurals name="keyguard_extreme_power_info_could_use_hour_time_text">
+        <item quantity="one">Jäänud %d tundi</item>
+        <item quantity="other">Jäänud %d tundi</item>
+    </plurals>
+    <plurals name="keyguard_extreme_power_info_could_use_min_time_text">
+        <item quantity="one">Jäänud %d minutit</item>
+        <item quantity="other">Jäänud %d minutit</item>
+    </plurals>
+    <plurals name="keyguard_extreme_power_info_could_use_time_text">
+        <item quantity="one">Jäänud %d h %d m</item>
+        <item quantity="other">Jäänud %d h %d m</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="one">Sisesta SIM PIN kood. Võid sisestada koodi veel %d korra enne, kui pead seadme lukust vabastamiseks võtma ühendust oma teenusepakkujaga.</item>
+        <item quantity="other">Sisesta SIM PIN kood. Võid sisestada koodi veel %d korda enne, kui pead seadme lukust vabastamiseks võtma ühendust oma teenusepakkujaga.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="one">SIM on nüüd deaktiveeritud. Sisesta jätkamiseks PUK kood. Võid sisestada selle veel %d kord enne, kui SIM muutub püsivalt kasutuskõlbmatuks. Saad lisateavet teenusepakkujalt.</item>
+        <item quantity="other">SIM on nüüd deaktiveeritud. Sisesta jätkamiseks PUK kood. Võid sisestada selle veel %d korda enne, kui SIM muutub püsivalt kasutuskõlbmatuks.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="one">Vale SIM PIN kood. Kui sisestad vale koodi veel %d korra, pead seadme lukust vabastamiseks võtma ühendust oma teenusepakkujaga.</item>
+        <item quantity="other">Vale SIM PIN kood. Kui sisestad vale koodi veel %d korda, pead seadme lukust vabastamiseks võtma ühendust oma teenusepakkujaga.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="one">Vale SIM PUK kood. Kui sisestad vale koodi veel %d korra, muutub SIM püsivalt kasutuskõlbmatuks.</item>
+        <item quantity="other">Vale SIM PUK kood. Kui sisestad vale koodi veel %d korda, muutub SIM püsivalt kasutuskõlbmatuks.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="one">Seadet ei ole lukust vabastatud %d tund. Kinnita parool.</item>
+        <item quantity="other">Seadet ei ole lukust vabastatud %d tundi. Kinnita parool.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="one">Seadet ei ole lukust vabastatud %d tund. Kinnita kujund.</item>
+        <item quantity="other">Seadet ei ole lukust vabastatud %d tundi. Kinnita kujund.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="one">Seadet ei ole lukust vabastatud %d tund. Kinnita PIN.</item>
+        <item quantity="other">Seadet ei ole lukust vabastatud %d tundi. Kinnita PIN.</item>
+    </plurals>
+    <plurals name="new_notifications_msg">
+        <item quantity="one">%d uus teavitus</item>
+        <item quantity="other">%d uut teavitust</item>
+    </plurals>
+    <plurals name="notification_channels_list_desc_2_and_others">
+        <item quantity="one">%1$s, %2$s ja %3$d muu</item>
+        <item quantity="other">%1$s, %2$s ja %3$d muud</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="one">%s lisateade sees.</item>
+        <item quantity="other">%s lisateadet sees.</item>
+    </plurals>
+    <plurals name="notification_num_channels">
+        <item quantity="one">%d teadete kategooria</item>
+        <item quantity="other">%d teadete kategooriat</item>
+    </plurals>
+    <plurals name="notification_num_channels_desc">
+        <item quantity="one">1 selle rakenduse %d-st teadete kategooriast</item>
+        <item quantity="other">1 selle rakenduse %d-st teadete kategooriast</item>
+    </plurals>
+    <plurals name="phone_locked_timeout_minutes_string">
+        <item quantity="one">Proovi uuesti %d minuti pärast</item>
+        <item quantity="other">Proovi uuesti %d minuti pärast</item>
+    </plurals>
+    <plurals name="phone_locked_timeout_seconds_string">
+        <item quantity="one">Proovi uuesti %d sekundi pärast</item>
+        <item quantity="other">Proovi uuesti %d sekundi pärast</item>
+    </plurals>
+    <plurals name="settings_toggle_position_divider_page">
+        <item quantity="one">%1$d selle riba kohal olev lüliti on aktiivne</item>
+        <item quantity="other">%1$d selle riba kohal olevat lülitit on aktiivsed</item>
+    </plurals>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="one">Ülevaates 1 ekraan</item>
+        <item quantity="other">Ülevaates %d ekraani</item>
+    </plurals>
+    <plurals name="view_realtime_clear">
+        <item quantity="one">Selge</item>
+        <item quantity="other">Selge</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="one">%1$d seade ühendatud</item>
+        <item quantity="other">%1$d seade ühendatud</item>
+    </plurals>
+</resources>

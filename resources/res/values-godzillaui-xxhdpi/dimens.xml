@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="keyguard_charging_info_back_arrow_top_margin">5dp</dimen>
+    <dimen name="keyguard_charging_info_list_top_margin">5dp</dimen>
+    <dimen name="keyguard_horizontal_time_text_size">58sp</dimen>
+    <dimen name="keyguard_vertical_time_margin_top">40dp</dimen>
+    <dimen name="keyguard_vertical_time_text_size">58sp</dimen>
+    <dimen name="miui_common_unlock_screen_date_text_size">13sp</dimen>
+    <dimen name="miui_common_unlock_screen_onwer_info_text_size">11sp</dimen>
+    <dimen name="miui_keyguard_clock_magin_top">22dp</dimen>
+    <dimen name="miui_keyguard_clock_time_layout_magin_top">15dp</dimen>
+    <dimen name="miui_keyguard_password_view_password_margin_bottom">0dp</dimen>
+    <dimen name="miui_keyguard_pin_view_rows_layout_width">290dp</dimen>
+    <dimen name="miui_keyguard_sim_pin_view_layout_width">290dp</dimen>
+    <dimen name="miui_unlock_lockout_emergency_btn_margin_bottom">10dp</dimen>
+    <dimen name="miui_unlock_lockout_ok_btn_margin_bottom">15dp</dimen>
+    <dimen name="miui_unlock_lockout_text_margin">15dp</dimen>
+</resources>

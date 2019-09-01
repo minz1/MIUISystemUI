@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt" android:duration="@integer/miui_volume_expand_animation_duration" android:transitionOrdering="together">
+    <fade android:interpolator="@interpolator/miui_volume_decelerate_quart" android:fadingMode="fade_out"/>
+    <changeBounds android:interpolator="@interpolator/miui_volume_decelerate_quart"/>
+    <fade android:interpolator="@interpolator/miui_volume_decelerate_quart" android:fadingMode="fade_in"/>
+</transitionSet>

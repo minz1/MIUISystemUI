@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/miui_volume_bg_color"/>
+            <corners android:radius="@dimen/miui_volume_bg_radius"/>
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip android:gravity="start" android:clipOrientation="horizontal">
+            <shape android:shape="rectangle">
+                <solid android:color="?unknown_attr_ref: 10010084"/>
+                <corners android:radius="@dimen/miui_volume_bg_radius"/>
+            </shape>
+        </clip>
+    </item>
+</layer-list>

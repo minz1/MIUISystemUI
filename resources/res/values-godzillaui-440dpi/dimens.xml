@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="miui_keyguard_pin_view_rows_layout_width">310dp</dimen>
+    <dimen name="miui_keyguard_sim_pin_view_layout_width">310dp</dimen>
+</resources>

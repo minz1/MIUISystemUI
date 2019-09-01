@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_recent_task_enter">
+        <item quantity="one">Ашылған Соңғы бағдарламалар, қол жетімді бағдарлама: %d.</item>
+        <item quantity="other">Жуырдағылары ашық, қолжетімді қолданбалар: %d.</item>
+    </plurals>
+    <plurals name="accessibility_recent_task_first_enter_tips">
+        <item quantity="one">Ашылған Соңғы бағдарламалар, қол жетімді бағдарлама: %d. Бекіту үшін жоғары қарай сырғытыңыз, құлыптау үшін төмен сырғытыңыз.</item>
+        <item quantity="other">Жуырдағылары ашық, қолжетімді қолданбалар: %d. Жабу үшін жоғары қарай, бекіту үшін төмен қарай сырғытыңыз.</item>
+    </plurals>
+    <plurals name="aod_dual_togother_city">
+        <item quantity="one">&quot; &quot;%s Сағат %s</item>
+        <item quantity="other">&quot; &quot;%s Сағат %s</item>
+    </plurals>
+    <plurals name="block_record_notification_more_text">
+        <item quantity="one">Хабарламаларды жасыру %1$s&amp; %2$d қолданбасы.</item>
+        <item quantity="other">%1$s және тағы %2$d қолданбалардың ескертулері жасырулы.</item>
+    </plurals>
+    <plurals name="disable_notification_confirm_title">
+        <item quantity="one">Осы қолданбаның хабарландыруларын жасыру керек пе?</item>
+        <item quantity="other">%d қолданбалардың ескертулерін өшіру керек пе?</item>
+    </plurals>
+    <plurals name="fold_tips_title">
+        <item quantity="one">%d маңызды емес ескерту</item>
+        <item quantity="other">%d маңызды емес ескерту</item>
+    </plurals>
+    <plurals name="incorrect_pincode_remaining_attempts">
+        <item quantity="one">PIN коды дұрыс емес, %d әрекет қалды</item>
+        <item quantity="other">PIN коды дұрыс емес, %d әрекет қалды</item>
+    </plurals>
+    <plurals name="incorrect_pukcode_remaining_attempts">
+        <item quantity="one">PUK коды дұрыс емес, %d әрекет қалды</item>
+        <item quantity="other">PUK коды дұрыс емес, %d әрекет қалды</item>
+    </plurals>
+    <plurals name="input_password_after_timeout_msg">
+        <item quantity="one">Құпиясөзді есіңізде сақтап қалу үшін әрбір %d сағат сайын енгізіңіз</item>
+        <item quantity="other">Құпиясөзді есіңізде сақтап қалу үшін әрбір %d сағат сайын енгізіңіз</item>
+    </plurals>
+    <plurals name="input_pattern_after_timeout_msg">
+        <item quantity="one">График құлпын есіңізде сақтап қалу үшін әрбір %d сағат сайын енгізіңіз</item>
+        <item quantity="other">График құлпын есіңізде сақтап қалу үшін әрбір %d сағат сайын енгізіңіз</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_could_use_hour_time_text">
+        <item quantity="one">%d сағ. қалды</item>
+        <item quantity="other">%d сағ. қалды</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_could_use_min_time_text">
+        <item quantity="one">%d мин. қалды</item>
+        <item quantity="other">%d мин. қалды</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_could_use_time_text">
+        <item quantity="one">%d сағ. %d мин. қалды</item>
+        <item quantity="other">%d сағ. %d мин. қалды</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_hour_time_format">
+        <item quantity="one">%d сағат</item>
+        <item quantity="other">%d сағат</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_min_time_format">
+        <item quantity="one">%d минут</item>
+        <item quantity="other">%d минут</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_time_format">
+        <item quantity="one">%d сағ. %d мин.</item>
+        <item quantity="other">%d сағ. %d мин.</item>
+    </plurals>
+    <plurals name="keyguard_extreme_power_info_could_use_hour_time_text">
+        <item quantity="one">%d сағат қалды</item>
+        <item quantity="other">%d сағат қалды</item>
+    </plurals>
+    <plurals name="keyguard_extreme_power_info_could_use_min_time_text">
+        <item quantity="one">%d минут қалды</item>
+        <item quantity="other">%d минут қалды</item>
+    </plurals>
+    <plurals name="keyguard_extreme_power_info_could_use_time_text">
+        <item quantity="one">%d сағ. %d мин. қалды</item>
+        <item quantity="other">%d сағ. %d мин. қалды</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="one">SIM PIN кодын енгізіңіз, құрылғыңыздың құлпын ашу үшін операторыңызға хабарласуыңыз керегіне дейін %d әрекетіңіз қалды.</item>
+        <item quantity="other">SIM PIN кодын енгізіңіз, %d әрекетіңіз қалды.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="one">SIM енді бұғатталды. Жалғастыру үшін PUK кодын енгізіңіз. SIM біржола қолдамсыз болуына дейін %d әрекетіңіз бар. Толығырақ ақпарат үшін операторыңызбен хабарласыңыз.</item>
+        <item quantity="other">SIM енді бұғатталды. Жалғастыру үшін PUK кодын енгізіңіз. SIM біржола қолдамсыз болуына дейін %d әрекетіңіз бар. Толығырақ ақпарат үшін операторыңызбен хабарласыңыз.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="one">SIM PIN коды дұрыс емес. Құрылғыңыздың құлпын ашу үшін операторыңызға хабарласуыңыз керегіне дейін %d әрекетіңіз қалды.</item>
+        <item quantity="other">SIM PIN коды дұрыс емес. %d әрекетіңіз қалды.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="one">SIM PUK коды дұрыс емес, SIM біржола жарамсыз болуына дейін %d әрекетіңіз бар.</item>
+        <item quantity="other">SIM PUK коды дұрыс емес, SIM біржола жарамсыз болуына дейін %d әрекетіңіз бар.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="one">Құрылғы құлпы %d сағат бойынша ашылмады. Құпиясөзді растаңыз.</item>
+        <item quantity="other">Құрылғы құлпы %d сағат бойынша ашылмады. Құпиясөзді растаңыз.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="one">Құрылғы құлпы %d сағат бойынша ашылмады. Графикалық кілтті растаңыз.</item>
+        <item quantity="other">Құрылғы құлпы %d сағат бойынша ашылмады. Графикалық кілтті растаңыз.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="one">Құрылғы құлпы %d сағат бойынша ашылмады. PIN кодты растаңыз.</item>
+        <item quantity="other">Құрылғы құлпы %d сағат бойынша ашылмады. PIN кодты растаңыз.</item>
+    </plurals>
+    <plurals name="new_notifications_msg">
+        <item quantity="one">%d жаңа ескерту</item>
+        <item quantity="other">%d жаңа ескерту</item>
+    </plurals>
+    <plurals name="notification_channels_list_desc_2_and_others">
+        <item quantity="one">%1$s, %2$s және %3$d басқа</item>
+        <item quantity="other">%1$s, %2$s және %3$d басқа</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="one">Ішінде тағы %s хабарландыру бар.</item>
+        <item quantity="other">Ішінде тағы %s хабарландыру бар.</item>
+    </plurals>
+    <plurals name="notification_num_channels">
+        <item quantity="one">%d хабарландыру санаттары</item>
+        <item quantity="other">%d хабарландыру санаттары</item>
+    </plurals>
+    <plurals name="notification_num_channels_desc">
+        <item quantity="one">%d санттан 1 хабарландыру осы қолданбадан</item>
+        <item quantity="other">%d санттан 1 хабарландыру осы қолданбадан</item>
+    </plurals>
+    <plurals name="phone_locked_timeout_minutes_string">
+        <item quantity="one">%d минуттан кейін қайталап көріңіз</item>
+        <item quantity="other">%d минуттан кейін қайталап көріңіз</item>
+    </plurals>
+    <plurals name="phone_locked_timeout_seconds_string">
+        <item quantity="one">%d секундтан қайталап көріңіз</item>
+        <item quantity="other">%d секундтан қайталап көріңіз</item>
+    </plurals>
+    <plurals name="settings_toggle_position_divider_page">
+        <item quantity="one">%1$d қатар үстіндегі ауыстырып қосқыш белсенді</item>
+        <item quantity="other">%1$d қатар үстіндегі ауыстырып қосқыш белсенді</item>
+    </plurals>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="one">Шолуда 1 экран</item>
+        <item quantity="other">Шолуда %d экран</item>
+    </plurals>
+    <plurals name="view_realtime_clear">
+        <item quantity="one">Ашық</item>
+        <item quantity="other">Ашық</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="one">%1$d құрылғы қосулы</item>
+        <item quantity="other">%1$d құрылғы қосулы</item>
+    </plurals>
+</resources>

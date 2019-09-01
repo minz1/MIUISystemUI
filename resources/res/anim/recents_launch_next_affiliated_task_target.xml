@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" android:background="#ff000000" android:shareInterpolator="false" android:zAdjustment="top">
+    <translate android:interpolator="@android:interpolator/decelerate_quint" android:duration="250" android:fillBefore="true" android:fillAfter="true" android:startOffset="50" android:fromYDelta="109.9976%" android:toYDelta="0%" android:fillEnabled="true"/>
+</set>

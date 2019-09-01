@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <solid android:color="#61ffffff"/>
+    <corners android:radius="@dimen/recents_grid_task_view_focused_frame_rounded_corners_radius"/>
+</shape>

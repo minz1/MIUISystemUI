@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DockedDividerBackground">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_width">10dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="DockedDividerHandle">
+        <item name="android:layout_gravity">clip_horizontal</item>
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">96dp</item>
+    </style>
+    <style name="DockedDividerMinimizedShadow">
+        <item name="android:layout_width">8dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="TaskItemTitle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/task_manager_text</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">5dp</item>
+    </style>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="battery_charging_progress_view_msg_size">11sp</dimen>
+    <dimen name="keyboard_key_text_size">13sp</dimen>
+    <dimen name="keyguard_ble_unlock_text_size">13sp</dimen>
+    <dimen name="lock_screen_notification_number_view_text_size">18sp</dimen>
+    <dimen name="lock_screen_numeric_keyboard_alphabet_text_size">8sp</dimen>
+    <dimen name="lock_screen_numeric_keyboard_number_text_size">29sp</dimen>
+    <dimen name="miui_account_unlock_screen_name_size">18sp</dimen>
+    <dimen name="miui_default_lock_screen_notification_item_click_to_enter_text_size">11sp</dimen>
+    <dimen name="miui_default_lock_screen_notification_item_msg_text_size">11sp</dimen>
+    <dimen name="miui_default_lock_screen_notification_item_time_text_size">11sp</dimen>
+    <dimen name="miui_default_lock_screen_notification_item_title_text_size">12sp</dimen>
+    <dimen name="miui_default_lock_screen_unlock_hint_text_size">13sp</dimen>
+    <dimen name="miui_sim_unlock_error_msg_font_size">12sp</dimen>
+    <dimen name="miui_unlock_owner_info_text_size">12sp</dimen>
+    <dimen name="miui_unlock_owner_info_unlock_text_size">12dp</dimen>
+    <dimen name="pattern_unlock_screen_emergency_text_size">11sp</dimen>
+</resources>

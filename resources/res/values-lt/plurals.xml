@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_recent_task_enter">
+        <item quantity="one">Atvertos dažniausiai naudojamos programos, pasiekiama programa:%d.</item>
+        <item quantity="few">Atvertos dažniausiai naudojamos programos, pasiekiamos programos:%d.</item>
+        <item quantity="many">Opened Recents, available apps: %d.</item>
+        <item quantity="other">Atvertos dažniausiai naudojamos programos, pasiekiamų programų:%d.</item>
+    </plurals>
+    <plurals name="accessibility_recent_task_first_enter_tips">
+        <item quantity="one">Atvertos dažniausiai naudojamos programos, pasiekiama programa: %d. Pašalinimui slinkite aukštyn, užrakinimui slinkite žemyn.</item>
+        <item quantity="few">Atvertos dažniausiai naudojamos programos, pasiekiamos programos: %d. Pašalinimui slinkite aukštyn, užrakinimui slinkite žemyn.</item>
+        <item quantity="many">Opened Recents, available apps: %d. Swipe up to remove, swipe down to lock.</item>
+        <item quantity="other">Atvertos dažniausiai naudojamos programos, pasiekiamų programų: %d. Pašalinimui slinkite aukštyn, užrakinimui slinkite žemyn.</item>
+    </plurals>
+    <plurals name="aod_dual_togother_city">
+        <item quantity="one">&quot; &quot;%s valanda %s</item>
+        <item quantity="few">&quot; &quot;%s valandos %s</item>
+        <item quantity="many">&quot; &quot;%s valandos %s</item>
+        <item quantity="other">&quot; &quot;%s valandų %s</item>
+    </plurals>
+    <plurals name="block_record_notification_more_text">
+        <item quantity="one">Slepiami pranešimai iš %1$s ir dar %2$d programos.</item>
+        <item quantity="few">Slepiami pranešimai iš %1$s ir dar %2$d programų.</item>
+        <item quantity="many">Hiding notifications from %1$s &amp; %2$d apps.</item>
+        <item quantity="other">Slepiami pranešimai iš %1$s ir dar %2$d programų.</item>
+    </plurals>
+    <plurals name="disable_notification_confirm_title">
+        <item quantity="one">Slėpti %d programos pranešimus?</item>
+        <item quantity="few">Slėpti %d programų pranešimus?</item>
+        <item quantity="many">Hide %d apps&apos; notifications?</item>
+        <item quantity="other">Slėpti %d programų pranešimus?</item>
+    </plurals>
+    <plurals name="fold_tips_title">
+        <item quantity="one">%d nesvarbus pranešimas</item>
+        <item quantity="few">%d nesvarbūs pranešimai</item>
+        <item quantity="many">%d nesvarbių pranešimų</item>
+        <item quantity="other">%d nesvarbių pranešimų</item>
+    </plurals>
+    <plurals name="incorrect_pincode_remaining_attempts">
+        <item quantity="one">Neteisingas PIN kodas, liko %d bandymas</item>
+        <item quantity="few">Neteisingas PIN kodas, liko %d bandymai</item>
+        <item quantity="many">Neteisingas PIN kodas, liko %d bandymų</item>
+        <item quantity="other">Neteisingas PIN kodas, liko %d bandymų</item>
+    </plurals>
+    <plurals name="incorrect_pukcode_remaining_attempts">
+        <item quantity="one">Neteisingas PUK kodas, liko %d bandymas</item>
+        <item quantity="few">Neteisingas PUK kodas, liko %d bandymai</item>
+        <item quantity="many">Neteisingas PUK kodas, liko %d bandymų</item>
+        <item quantity="other">Neteisingas PUK kodas, liko %d bandymų</item>
+    </plurals>
+    <plurals name="input_password_after_timeout_msg">
+        <item quantity="one">Įveskite slaptažodį bent kas %d valandą, kad visada jį atmintumėte</item>
+        <item quantity="few">Įveskite slaptažodį bent kas %d valandas, kad visada jį atmintumėte</item>
+        <item quantity="many">Įveskite slaptažodį bent kas %d valandos, kad visada jį atmintumėte</item>
+        <item quantity="other">Įveskite slaptažodį bent kas %d valandų, kad visada jį atmintumėte</item>
+    </plurals>
+    <plurals name="input_pattern_after_timeout_msg">
+        <item quantity="one">Įveskite slaptažodį bent kas %d valandą, kad visada jį atmintumėte</item>
+        <item quantity="few">Įveskite slaptažodį bent kas %d valandas, kad visada jį atmintumėte</item>
+        <item quantity="many">Įveskite slaptažodį bent kas %d valandos, kad visada jį atmintumėte</item>
+        <item quantity="other">Įveskite slaptažodį bent kas %d valandų, kad visada jį atmintumėte</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_could_use_hour_time_text">
+        <item quantity="one">Liko maždaug %d  val.</item>
+        <item quantity="few">Liko maždaug %d  val.</item>
+        <item quantity="many">Liko maždaug %d  val.</item>
+        <item quantity="other">Liko maždaug %d  val.</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_could_use_min_time_text">
+        <item quantity="one">Liko maždaug %d  min.</item>
+        <item quantity="few">Liko maždaug %d  min.</item>
+        <item quantity="many">Liko maždaug %d  min.</item>
+        <item quantity="other">Liko maždaug %d  min.</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_could_use_time_text">
+        <item quantity="one">Liko maždaug %d  val.%d  min.</item>
+        <item quantity="few">Liko maždaug %d  val.%d  min.</item>
+        <item quantity="many">Liko maždaug %d  val.%d  min.</item>
+        <item quantity="other">Liko maždaug %d  val.%d  min.</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_hour_time_format">
+        <item quantity="one">%d  val.</item>
+        <item quantity="few">%d  val.</item>
+        <item quantity="many">%d  val.</item>
+        <item quantity="other">%d  val.</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_min_time_format">
+        <item quantity="one">%d  min.</item>
+        <item quantity="few">%d  min.</item>
+        <item quantity="many">%d  min.</item>
+        <item quantity="other">%d  min.</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_time_format">
+        <item quantity="one">%d  val. %d  min.</item>
+        <item quantity="few">%d  val. %d  min.</item>
+        <item quantity="many">%d  val. %d  min.</item>
+        <item quantity="other">%d  val. %d  min.</item>
+    </plurals>
+    <plurals name="keyguard_extreme_power_info_could_use_hour_time_text">
+        <item quantity="one">Liko %d  valanda</item>
+        <item quantity="few">Liko %d  valandos</item>
+        <item quantity="many">Liko %d  valandos</item>
+        <item quantity="other">Liko %d  valandų</item>
+    </plurals>
+    <plurals name="keyguard_extreme_power_info_could_use_min_time_text">
+        <item quantity="one">Liko %d  minutė</item>
+        <item quantity="few">Liko %d  minutės</item>
+        <item quantity="many">Liko %d  minutės</item>
+        <item quantity="other">Liko %d  minučių</item>
+    </plurals>
+    <plurals name="keyguard_extreme_power_info_could_use_time_text">
+        <item quantity="one">Liko %d  val. %d  min.</item>
+        <item quantity="few">Liko %d  val. %d  min.</item>
+        <item quantity="many">Liko %d  val. %d  min.</item>
+        <item quantity="other">Liko %d  val. %d  min.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="one">Įveskite SIM PIN. Jums liko %d bandymas, po kurio, norėdami atrakinti įrenginį, turėsite susisiekti su operatoriumi.</item>
+        <item quantity="few">Įveskite SIM PIN. Jums liko %d bandymai, po kurių, norėdami atrakinti įrenginį, turėsite susisiekti su operatoriumi.</item>
+        <item quantity="many">Įveskite SIM PIN. Jums liko %d bandymo, po kurio, norėdami atrakinti įrenginį, turėsite susisiekti su operatoriumi.</item>
+        <item quantity="other">Įveskite SIM PIN. Jums liko %d bandymų, po kurių, norėdami atrakinti įrenginį, turėsite susisiekti su operatoriumi.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="one">SIM užblokuota. Norėdami tęsti, įveskite PUK kodą. Jums liko %d bandymas, po kurio SIM taps nebenaudojama. Dėl išsamesnės informacijos susisiekite su operatoriumi.</item>
+        <item quantity="few">SIM užblokuota. Norėdami tęsti, įveskite PUK kodą. Jums liko %d bandymai, po kurių SIM taps nebenaudojama. Dėl išsamesnės informacijos susisiekite su operatoriumi.</item>
+        <item quantity="many">SIM užblokuota. Norėdami tęsti, įveskite PUK kodą. Jums liko %d bandymo, po kurių SIM taps nebenaudojama. Dėl išsamesnės informacijos susisiekite su operatoriumi.</item>
+        <item quantity="other">SIM užblokuota. Norėdami tęsti, įveskite PUK kodą. Jums liko %d bandymų, po kurių SIM taps nebenaudojama. Dėl išsamesnės informacijos susisiekite su operatoriumi.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="one">Neteisingas SIM PIN kodas. Jums liko %d bandymas, po kurio, norėdami atrakinti įrenginį, turėsite susisiekti su operatoriumi.</item>
+        <item quantity="few">Neteisingas SIM PIN kodas. Jums liko %d bandymai, po kurių, norėdami atrakinti įrenginį, turėsite susisiekti su operatoriumi.</item>
+        <item quantity="many">Neteisingas SIM PIN kodas. Jums liko %d bandymo, po kurio, norėdami atrakinti įrenginį, turėsite susisiekti su operatoriumi.</item>
+        <item quantity="other">Neteisingas SIM PIN kodas. Jums liko %d bandymų, po kurių, norėdami atrakinti įrenginį, turėsite susisiekti su operatoriumi.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="one">Neteisingas SIM PUK kodas. Jums liko %d bandymas, po kurio SIM taps nebenaudojama.</item>
+        <item quantity="few">Neteisingas SIM PUK kodas. Jums liko %d bandymai, po kurių SIM taps nebenaudojama.</item>
+        <item quantity="many">Neteisingas SIM PUK kodas. Jums liko %d bandymo, po kurių SIM taps nebenaudojama.</item>
+        <item quantity="other">Neteisingas SIM PUK kodas. Jums liko %d bandymų, po kurių SIM taps nebenaudojama.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="one">Įrenginys nebuvo atrakintas %d valandą. Patvirtinkite slaptažodį.</item>
+        <item quantity="few">Įrenginys nebuvo atrakintas %d valandas. Patvirtinkite slaptažodį.</item>
+        <item quantity="many">Įrenginys nebuvo atrakintas %d valandos. Patvirtinkite slaptažodį.</item>
+        <item quantity="other">Įrenginys nebuvo atrakintas %d valandų. Patvirtinkite slaptažodį.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="one">Įrenginys nebuvo atrakintas %d valandą. Patvirtinkite raštą.</item>
+        <item quantity="few">Įrenginys nebuvo atrakintas %d valandas. Patvirtinkite raštą.</item>
+        <item quantity="many">Įrenginys nebuvo atrakintas %d valandos. Patvirtinkite raštą.</item>
+        <item quantity="other">Įrenginys nebuvo atrakintas %d valandų. Patvirtinkite raštą.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="one">Įrenginys nebuvo atrakintas %d valandą. Patvirtinkite PIN.</item>
+        <item quantity="few">Įrenginys nebuvo atrakintas %d valandas. Patvirtinkite PIN.</item>
+        <item quantity="many">Įrenginys nebuvo atrakintas %d valandos. Patvirtinkite PIN.</item>
+        <item quantity="other">Įrenginys nebuvo atrakintas %d valandų. Patvirtinkite PIN.</item>
+    </plurals>
+    <plurals name="new_notifications_msg">
+        <item quantity="one">%d naujas pranešimas</item>
+        <item quantity="few">%d nauji pranešimai</item>
+        <item quantity="many">%d naujų pranešimų</item>
+        <item quantity="other">%d naujų pranešimų</item>
+    </plurals>
+    <plurals name="notification_channels_list_desc_2_and_others">
+        <item quantity="one">%1$s, %2$s, and %3$d kitas</item>
+        <item quantity="few">%1$s, %2$s, and %3$d kiti</item>
+        <item quantity="many">%1$s, %2$s, and %3$d kito</item>
+        <item quantity="other">%1$s, %2$s, and %3$d kitų</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="one">ir dar %s pranešimas viduje.</item>
+        <item quantity="few">ir dar %s pranešimai viduje.</item>
+        <item quantity="many">ir dar %s pranešimo viduje.</item>
+        <item quantity="other">ir dar %s pranešimų viduje.</item>
+    </plurals>
+    <plurals name="notification_num_channels">
+        <item quantity="one">%d pranešimų kategorija</item>
+        <item quantity="few">%d pranešimų kategorijos</item>
+        <item quantity="many">%d pranešimų kategorijos</item>
+        <item quantity="other">%d pranešimų kategorijų</item>
+    </plurals>
+    <plurals name="notification_num_channels_desc">
+        <item quantity="one">1 iš %d šios programos pranešimų kategorijos</item>
+        <item quantity="few">1 iš %d šios programos pranešimų kategorijų</item>
+        <item quantity="many">1 iš %d šios programos pranešimų kategorijų</item>
+        <item quantity="other">1 iš %d šios programos pranešimų kategorijų</item>
+    </plurals>
+    <plurals name="phone_locked_timeout_minutes_string">
+        <item quantity="one">Pabandykite po %d minutės</item>
+        <item quantity="few">Pabandykite po %d minučių</item>
+        <item quantity="many">Pabandykite po %d minučių</item>
+        <item quantity="other">Pabandykite po %d minučių</item>
+    </plurals>
+    <plurals name="phone_locked_timeout_seconds_string">
+        <item quantity="one">Pabandykite po %d sekundės</item>
+        <item quantity="few">Pabandykite po %d sekundžių</item>
+        <item quantity="many">Pabandykite po %d sekundžių</item>
+        <item quantity="other">Pabandykite po %d sekundžių</item>
+    </plurals>
+    <plurals name="settings_toggle_position_divider_page">
+        <item quantity="one">%1$d jungiklis virš šios juostos yra aktyvus</item>
+        <item quantity="few">%1$d jungikliai virš šios juostos yra aktyvūs</item>
+        <item quantity="many">%1$d jungiklio virš šios juostos yra aktyvūs</item>
+        <item quantity="other">%1$d jungiklių virš šios juostos yra aktyvūs</item>
+    </plurals>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="one">1 ekranas „Apžvalgoje“</item>
+        <item quantity="few">%d ekranai „Apžvalgoje“</item>
+        <item quantity="many">%d ekrano „Apžvalgoje“</item>
+        <item quantity="other">%d ekranų „Apžvalgoje“</item>
+    </plurals>
+    <plurals name="view_realtime_clear">
+        <item quantity="one">Giedra</item>
+        <item quantity="few">Giedra</item>
+        <item quantity="many">Giedra</item>
+        <item quantity="other">Giedra</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="one">%1$d įrenginys prisijungęs</item>
+        <item quantity="few">%1$d įrenginiai prisijungę</item>
+        <item quantity="many">%1$d įrenginio prisijungę</item>
+        <item quantity="other">%1$d įrenginių prisijungę</item>
+    </plurals>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/aod_clock_padding" android:paddingEnd="@dimen/aod_clock_padding">
+    <com.android.keyguard.widget.GradientLinearLayout android:orientation="vertical" android:id="@+id/gradient_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/content_text_size_dual" android:textStyle="bold" android:textColor="@color/content_text_color" android:layout_gravity="center" android:id="@+id/city" android:paddingTop="@dimen/aod_clock_padding_top_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/city_margin_bottom" android:includeFontPadding="false"/>
+        <TextView android:layout_gravity="center" android:id="@+id/clock_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="true" android:letterSpacing="0.05" style="@style/Aod_widget_dual"/>
+        <TextView android:textStyle="bold" android:layout_gravity="center" android:id="@+id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/date_margin_top" android:layout_marginBottom="@dimen/date_margin_bottom" android:includeFontPadding="false" style="@style/Aod_date_dual"/>
+    </com.android.keyguard.widget.GradientLinearLayout>
+</FrameLayout>

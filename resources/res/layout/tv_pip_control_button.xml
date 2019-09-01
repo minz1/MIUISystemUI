@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui" xmlns:aapt="http://schemas.android.com/aapt">
+    <ImageView android:id="@+id/button" android:focusable="true" android:layout_width="34dp" android:layout_height="34dp" android:src="@drawable/tv_pip_button_focused" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:importantForAccessibility="yes"/>
+    <ImageView android:id="@+id/icon" android:padding="5dp" android:layout_width="34dp" android:layout_height="34dp" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:importantForAccessibility="no"/>
+    <TextView android:textSize="12sp" android:textColor="@color/tv_pip_control_desc_color" android:gravity="center" android:id="@+id/desc" android:layout_width="100dp" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/pip_fullscreen" android:layout_below="@+id/icon" android:layout_centerHorizontal="true" android:alpha="0" android:importantForAccessibility="no" android:fontFamily="sans-serif"/>
+</merge>

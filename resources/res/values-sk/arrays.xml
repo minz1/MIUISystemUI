@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="animator_duration_scale_entries">
+        <item>Animácie vypnuté</item>
+        <item>Mierka animácie 0,5x</item>
+        <item>Mierka animácie 1x</item>
+        <item>Mierka animácie 1,5x</item>
+        <item>Mierka animácie 2x</item>
+        <item>Mierka animácie 5x</item>
+        <item>Mierka animácie 10x</item>
+    </array>
+    <array name="app_process_limit_entries">
+        <item>Štandardný limit</item>
+        <item>Žiadne procesy na pozadí</item>
+        <item>Maximálne 1 proces</item>
+        <item>Maximálne 2 procesy</item>
+        <item>Maximálne 3 procesy</item>
+        <item>Maximálne 4 procesy</item>
+    </array>
+    <array name="aqi_title">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+    </array>
+    <array name="aqi_title_append">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+    </array>
+    <array name="aqi_title_prefix">
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+    </array>
+    <array name="battery_labels">
+        <item>0 %</item>
+        <item>50 %</item>
+        <item>100 %</item>
+    </array>
+    <array name="battery_options">
+        <item>Vždy zobrazovať percentá</item>
+        <item>Zobrazovať percentá pri nabíjaní (predvolené)</item>
+        <item>Nezobrazovať túto ikonu</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Použiť systémový výber (predvolené)</item>
+        <item>16 bitov/vzorka</item>
+        <item>24 bitov/vzorka</item>
+        <item>32 bitov/vzorka</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Použiť systémový výber (predvolené)</item>
+        <item>16 bitov/vzorka</item>
+        <item>24 bitov/vzorka</item>
+        <item>32 bitov/vzorka</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>Použiť systémový výber (predvolené)</item>
+        <item>Mono</item>
+        <item>Stereo</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>Použiť systémový výber (predvolené)</item>
+        <item>Mono</item>
+        <item>Stereo</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>Optimalizované pre kvalitný zvuk</item>
+        <item>Vyvážená kvalita zvuku a pripojenia</item>
+        <item>Optimalizované pre kvalitné pripojenie</item>
+        <item>Najlepší výkon (adaptívna bitová rýchlosť)</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>Optimalizované pre Kvalitu zvuku (990kbps/909kbps)</item>
+        <item>Vyvážená kvalita zvuku a kvality pripojenia (660 kbps/606 kbps)</item>
+        <item>Optimalizované pre Kvalitu pripojenia (330 kbps/303 kbps)</item>
+        <item>Najlepší výkon (adaptívna bitová rýchlosť)</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>Použiť systémový výber (predvolené)</item>
+        <item>44,1 kHz</item>
+        <item>48,0 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96,0 kHz</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>Použiť systémový výber (predvolené)</item>
+        <item>44,1 kHz</item>
+        <item>48,0 kHz</item>
+        <item>88,2 kHz</item>
+        <item>96,0 kHz</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_summaries">
+        <item>Použiť systémový výber (predvolené)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>Qualcomm® aptX™ audio</item>
+        <item>Qualcomm® aptX™ HD audio</item>
+        <item>LDAC</item>
+        <item>Qualcomm® aptX™ Adaptive audio</item>
+        <item>Povoliť Voliteľné kódeky</item>
+        <item>Zakázať Voliteľné kódeky</item>
+    </array>
+    <array name="bluetooth_a2dp_codec_titles">
+        <item>Použiť systémový výber (predvolené)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>aptXQualcomm® aptX™ audio</item>
+        <item>aptXQualcomm®aptX™ HD audio</item>
+        <item>LDAC</item>
+        <item>Qualcomm® aptX™ Adaptive audio</item>
+        <item>Povoliť Voliteľné kódeky</item>
+        <item>Zakázať Voliteľné kódeky</item>
+    </array>
+    <array name="bluetooth_audio_active_device_summaries">
+        <item />
+        <item> | Aktívne</item>
+        <item> | Aktívne (médiá)</item>
+        <item> | Aktívne (telefón)</item>
+    </array>
+    <array name="bluetooth_avrcp_version_values">
+        <item>avrcp14</item>
+        <item>avrcp13</item>
+        <item>avrcp15</item>
+        <item>avrcp16</item>
+    </array>
+    <array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.4 (predvolené)</item>
+        <item>AVRCP 1.3</item>
+        <item>AVRCP 1.5</item>
+        <item>AVRCP 1.6</item>
+    </array>
+    <array name="clock_options">
+        <item>Ukázať hodiny, minúty a sekundy</item>
+        <item>Ukázať hodiny a minúty (predvolené)</item>
+        <item>Nezobrazovať túto ikonu</item>
+    </array>
+    <array name="color_mode_descriptions">
+        <item>Vylepšené farby</item>
+        <item>Prirodzené farby tak, ako ich vidí naše oko</item>
+        <item>Farby optimalizované pre digitálny obsah</item>
+    </array>
+    <array name="color_mode_names">
+        <item>Žiarivé (predvolené)</item>
+        <item>Prirodzené</item>
+        <item>Štandardné</item>
+    </array>
+    <array name="debug_hw_overdraw_entries">
+        <item>Vypnúť</item>
+        <item>Zobraziť presahujúce oblasti</item>
+        <item>Zobraziť oblasti deuteranomálie</item>
+    </array>
+    <array name="enable_opengl_traces_entries">
+        <item>Žiadne</item>
+        <item>Logcat</item>
+        <item>Systrace (grafika)</item>
+        <item>Volať zásobník pri chybe glGetError</item>
+    </array>
+    <array name="hdcp_checking_summaries">
+        <item>Nikdy nepoužívať kontrolu HDCP</item>
+        <item>Použiť kontrolu HDCP len pre obsah DRM</item>
+        <item>Vždy používať kontrolu HDCP</item>
+    </array>
+    <array name="hdcp_checking_titles">
+        <item>Nikdy nekontrolovať</item>
+        <item>Kontrolovať len obsah DRM</item>
+        <item>Vždy kontrolovať</item>
+    </array>
+    <array name="miui_volume_timer_segments_title">
+        <item>Vypnúť</item>
+        <item>30 minút</item>
+        <item>1 hodina</item>
+        <item>2 hodiny</item>
+        <item>8 hodín</item>
+    </array>
+    <array name="nav_bar_buttons">
+        <item>Schránka</item>
+        <item>Keycode</item>
+        <item>Prepínač klávesnice</item>
+        <item>Žiadne</item>
+    </array>
+    <array name="nav_bar_layouts">
+        <item>Normálny</item>
+        <item>Kompaktný</item>
+        <item>Opierajúci sa naľavo</item>
+        <item>Opierajúci sa napravo</item>
+    </array>
+    <array name="overlay_display_devices_entries">
+        <item>Žiadne</item>
+        <item>480p</item>
+        <item>480p (bezpečné)</item>
+        <item>720p</item>
+        <item>720p (bezpečné)</item>
+        <item>1080p</item>
+        <item>1080p (bezpečné)</item>
+        <item>4K</item>
+        <item>4K (bezpečné)</item>
+        <item>4K (presahujúce)</item>
+        <item>4K (presahujúce, bezpečné)</item>
+        <item>720p, 1080p (duálna obrazovka)</item>
+    </array>
+    <array name="recents_blacklist_array">
+    </array>
+    <array name="select_logd_size_lowram_titles">
+        <item>Vypnuté</item>
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
+    </array>
+    <array name="select_logd_size_summaries">
+        <item>Vypnuté</item>
+        <item>64 KB/záznam vyrovnávacej pamäti</item>
+        <item>256 KB/záznam vyrovnávacej pamäte</item>
+        <item>1 MB/záznam vyrovnávacej pamäte</item>
+        <item>4 MB/záznam vyrovnávacej pamäte</item>
+        <item>16 MB/záznam vyrovnávacej pamäte</item>
+    </array>
+    <array name="select_logd_size_titles">
+        <item>Vypnuté</item>
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
+        <item>4 MB</item>
+        <item>16 MB</item>
+    </array>
+    <array name="select_logpersist_summaries">
+        <item>Vypnúť</item>
+        <item>Všetky logy vyrovnávacej pamäti</item>
+        <item>Všetko okrem logov vyrovnávacej pamäti rádia</item>
+        <item>Len záznamy vyrovnávacej pamäti jadra</item>
+    </array>
+    <array name="select_logpersist_titles">
+        <item>Vypnúť</item>
+        <item>Všetko</item>
+        <item>Všetko okrem rádia</item>
+        <item>Len jadro</item>
+    </array>
+    <array name="show_non_rect_clip_entries">
+        <item>Vypnúť</item>
+        <item>Neobdĺžniková oblasť klipu modrou</item>
+        <item>Test. príkazy vykresľovania zelenou</item>
+    </array>
+    <array name="track_frame_time_entries">
+        <item>Vypnúť</item>
+        <item>Na obrazovke v podobe stĺpcov</item>
+        <item>V adb shell dumpsys gfxinfo</item>
+    </array>
+    <array name="transition_animation_scale_entries">
+        <item>Animácie vypnuté</item>
+        <item>Mierka animácie 0,5x</item>
+        <item>Mierka animácie 1x</item>
+        <item>Mierka animácie 1,5x</item>
+        <item>Mierka animácie 2x</item>
+        <item>Mierka animácie 5x</item>
+        <item>Mierka animácie 10x</item>
+    </array>
+    <array name="tts_rate_entries">
+        <item>Veľmi pomalá</item>
+        <item>Pomalá</item>
+        <item>Normálna</item>
+        <item>Rýchla</item>
+        <item>Rýchlejšie</item>
+        <item>Veľmi rýchla</item>
+        <item>Vysoko rýchla</item>
+        <item>Super rýchla</item>
+        <item>Najrýchlejšia</item>
+    </array>
+    <array name="tts_rate_values">
+        <item>60</item>
+        <item>80</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>250</item>
+        <item>300</item>
+        <item>350</item>
+        <item>400</item>
+    </array>
+    <array name="usb_configuration_titles">
+        <item>Nabíjanie</item>
+        <item>MTP (Protokol prenosu médií)</item>
+        <item>PTP (Protokol prenosu obrázkov)</item>
+        <item>RNDIS (USB Ethernet)</item>
+        <item>Zdroj zvuku</item>
+        <item>MIDI</item>
+    </array>
+    <array name="weather_type">
+        <item>Jasno</item>
+        <item>Oblačno</item>
+        <item>Zamračené</item>
+        <item>Hmlisto</item>
+        <item>Búrka</item>
+        <item>Lejak</item>
+        <item>Búrka</item>
+        <item>Búrka</item>
+        <item>Dážď</item>
+        <item>Lejak</item>
+        <item>Dážď</item>
+        <item>Jemný Dážď</item>
+        <item>Dážď so snehom</item>
+        <item>Snehová búrka</item>
+        <item>Sneženie</item>
+        <item>Sneženie</item>
+        <item>Sneženie</item>
+        <item>Sneženie</item>
+        <item>Piesková búrka</item>
+        <item>Piesková búrka</item>
+        <item>Piesková búrka</item>
+        <item>Veterno</item>
+        <item>Krupobitie</item>
+        <item>Prach</item>
+        <item>Hmla</item>
+        <item>Mrznúci dážď</item>
+        <item />
+    </array>
+    <array name="wifi_status">
+        <item />
+        <item>Vyhľadávanie…</item>
+        <item>Pripája sa…</item>
+        <item>Overovanie…</item>
+        <item>Načítava sa IP adresa…</item>
+        <item>Pripojené</item>
+        <item>Pozastavené</item>
+        <item>Odpájanie…</item>
+        <item>Odpojené</item>
+        <item>Neúspešné</item>
+        <item>Blokované</item>
+        <item>Dočasne nedostupná kvôli slabému signálu</item>
+    </array>
+    <array name="wifi_status_with_ssid">
+        <item />
+        <item>Vyhľadávanie…</item>
+        <item>Pripájanie k %1$s…</item>
+        <item>Overovanie siete %1$s…</item>
+        <item>Získavanie adresy IP zo siete %1$s…</item>
+        <item>Pripojené k sieti %1$s</item>
+        <item>Pozastavené</item>
+        <item>Odpájanie od siete %1$s…</item>
+        <item>Odpojené</item>
+        <item>Neúspešné</item>
+        <item>Blokované</item>
+        <item>Dočasne nedostupná kvôli slabému signálu</item>
+    </array>
+    <array name="window_animation_scale_entries">
+        <item>Animácie vypnuté</item>
+        <item>Mierka animácie 0,5x</item>
+        <item>Mierka animácie 1x</item>
+        <item>Mierka animácie 1,5x</item>
+        <item>Mierka animácie 2x</item>
+        <item>Mierka animácie 5x</item>
+        <item>Mierka animácie 10x</item>
+    </array>
+</resources>
